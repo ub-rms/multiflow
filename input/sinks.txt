@@ -1,0 +1,51 @@
+class: java.io.Writer
+PrintWriter
+println
+print
+
+class: java.io.OutputStream
+write
+Println
+print
+
+class: android.telephony.
+sendTextMessage
+sendMultipartTextMessage
+sendDataMessag
+
+class: http.client.methods.
+HttpPost
+
+class: .http.impl.client.
+execute
+
+class: android.app.Activity
+startActivityForResult
+
+class: android.util.Log
+d
+e
+i
+println
+v
+w
+wtf
+
+class: android.os.Environment
+getExternalStorageState
+
+class: .content.Intent
+putExtra
+setdata
+setdata
+Replace
+Remove
+putCharSequenceArrayListExtra
+putIntegerArrayListExtra
+putParcelableArrayListExtra
+putStringArrayListExtra
+setData
+startActivityForResult
+
+class: java.net.URL
+openConnection

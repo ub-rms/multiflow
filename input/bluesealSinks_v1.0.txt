@@ -1,0 +1,124 @@
+class: java.io.OutputStream
+write
+class: java.io.ByteArrayOutputStream
+write
+writeTo
+class: org.apache.http.impl.io.ChunkedOutputStream
+write
+class: org.apache.http.impl.io.ContentLengthOutputStream
+write
+class: java.io.FileOutputStream
+write
+class: java.io.FilterOutputStream
+write
+class: org.apache.http.impl.io.IdentityOutputStream
+write
+class: java.io.ObjectOutputStream
+write
+writeBoolean
+writeByte
+writeBytes
+writeChar
+writeChars
+writeDouble
+writeFloat
+writeInt
+writeLong
+writeObject
+writeShort
+writeUTF
+writeUnshared
+class: java.io.PipedOutputStream
+write
+class: android.content.res.AssetFileDescriptor.AutoCloseOutputStream
+write
+class: android.util.Base64OutputStream
+write
+class: java.io.BufferedOutputStream
+write
+class: java.util.zip.CheckedOutputStream
+write
+class: javax.crypto.CipherOutputStream
+write
+class: java.io.DataOutputStream
+write
+writeBoolean
+writeByte
+writeBytes
+writeChar
+writeChars
+writeDouble
+writeFloat
+writeInt
+writeLong
+writeShort
+writeUTF
+class: java.util.zip.DeflaterOutputStream
+write
+deflate
+class: java.security.DigestOutputStream
+write
+class: java.util.zip.GZIPOutputStream
+write
+class: java.util.zip.InflaterOutputStream
+write
+class: java.util.jar.JarOutputStream
+putNextEntry
+class: java.io.PrintStream
+print
+printf
+println
+write
+class: java.util.zip.ZipOutputStream
+putNextEntry
+write
+class: java.io.Writer
+PrintWriter
+println
+print
+class: java.io.OutputStream
+write
+Println
+print
+class: android.telephony.SmsManager
+sendTextMessage
+sendMultipartTextMessage
+sendDataMessag
+class: http.client.methods.HttpPost
+HttpPost
+class: android.app.Activity
+startActivityForResult
+class: android.util.Log
+d
+e
+i
+println
+v
+w
+wtf
+class: android.os.Environment
+getExternalStorageState
+class: android.content.Intent
+putExtra
+setdata
+setdata
+Replace
+Remove
+putCharSequenceArrayListExtra
+putIntegerArrayListExtra
+putParcelableArrayListExtra
+putStringArrayListExtra
+setData
+startActivityForResult  
+class: org.apache.http.impl.client.AbstractHttpClient
+execute
+class: org.apache.http.client.HttpClient
+execute
+class: android.net.http.AndroidHttpClient
+execute
+class: java.net.URL
+openConnection
+class: android.app.Activity
+setResult
+class: org.apache.http.impl.client.DefaultHttpClient
+execute

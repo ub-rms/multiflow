@@ -1,0 +1,816 @@
+String:
+content://call_log
+content://call_log/calls
+content://call_log/calls/filter
+content://contacts
+content://contacts/settings
+content://contacts/people
+content://contacts/people/filter
+content://contacts/deleted_people
+content://contacts/people/with_email_or_im_filter
+content://contacts/groups
+content://contacts/deleted_groups
+content://contacts/phones
+content://contacts/phones/filter
+content://contacts/groupmembership
+content://contacts/groupmembershipraw
+content://contacts/contact_methods
+content://contacts/contact_methods/email
+content://contacts/presence
+content://contacts/organizations
+content://contacts/photos
+content://contacts/extensions
+content://browser
+content://browser/bookmarks
+content://browser/bookmarks/searches
+content://com.android.calendar
+content://com.android.calendar/calendars
+content://com.android.calendar/attendees
+content://com.android.calendar/calendar_entities
+content://com.android.calendar/event_entities
+content://com.android.calendar/events
+content://com.android.calendar/exception
+content://com.android.calendar/instances/when
+content://com.android.calendar/instances/whenbyday
+content://com.android.calendar/instances/search
+content://com.android.calendar/instances/searchbyday
+content://com.android.calendar/properties
+content://com.android.calendar/groupbyday
+content://com.android.calendar/reminders
+content://com.android.calendar/calendar_alerts
+content://com.android.calendar/calendar_alerts/by_instance
+content://com.android.calendar/extendedproperties
+content://com.android.contacts
+content://com.android.contacts/directories
+content://com.android.contacts/syncstate
+content://com.android.contacts/contacts
+content://com.android.contacts/contacts/lookup
+content://com.android.contacts/contacts/as_vcard
+content://com.android.contacts/contacts/as_multi_vcard
+content://com.android.contacts/filter
+content://com.android.contacts/strequent
+content://com.android.contacts/frequent
+content://com.android.contacts/frequent/filter
+content://com.android.contacts/group
+content://com.android.contacts/profile
+content://com.android.contacts/profile/as_vcard
+content://com.android.contacts/profile/raw_contacts
+content://com.android.contacts/raw_contacts
+content://com.android.contacts/stream_items
+content://com.android.contacts/stream_items/photo
+content://com.android.contacts/stream_items_limit
+content://com.android.contacts/data
+content://com.android.contacts/raw_contact_entities
+content://com.android.contacts/profile/raw_contact_entities
+content://com.android.contacts/phone_lookup
+content://com.android.contacts/status_updates
+content://com.android.contacts/profile/status_updates
+content://com.android.contacts/data/phones
+content://com.android.contacts/data/phones/filter
+content://com.android.contacts/data/emails
+content://com.android.contacts/data/emails/lookup
+content://com.android.contacts/data/emails/filter
+content://com.android.contacts/data/postals
+content://com.android.contacts/data/usagefeedback
+content://com.android.contacts/groups
+content://com.android.contacts/groups_summary
+content://com.android.contacts/aggregation_exceptions
+content://com.android.contacts/settings
+content://com.android.contacts/display_photo
+content://com.android.contacts/photo_dimensions
+content://com.android.contacts/provider_status
+content://downloads/all_downloads
+content://downloads/download
+content://downloads/my_downloads
+content://downloads/public_downloads
+content://downloads/download/#
+content://downloads/my_downloads/#
+content://downloads/all_downloads/#
+content://drm/images
+content://drm/audio
+content://settings/system
+content://settings/system/ringtone
+content://settings/system/notification_sound
+content://settings/system/alarm_alert
+content://settings/secure
+content://settings/bookmarks
+content://com.android.social
+content://com.android.social/activities
+content://com.android.social/activities/authored_by
+content://com.android.social/contact_status
+content://sms
+content://sms/inbox
+content://sms/sent
+content://sms/draft
+content://sms/outbox
+content://sms/conversations
+content://mms-sms/threadID
+content://mms-sms/
+content://mms-sms/conversations
+content://mms-sms/messages/byphone
+content://mms-sms/undelivered
+content://mms-sms/draft
+content://mms-sms/locked
+content://mms-sms/search
+content://mms-sms/pending
+content://mms
+content://mms/report-request
+content://mms/report-status
+content://mms/inbox
+content://mms/sent
+content://mms/drafts
+content://mms/outbox
+content://mms/rate
+content://telephony/carriers
+content://user_dictionary
+content://user_dictionary/words
+content://com.android.voicemail/voicemail
+content://com.android.voicemail/status
+
+
+content://contacts/contacts/.*/photo
+content://contacts.*
+content://contacts/search_suggest_query
+content://contacts/search_suggest_shortcut
+content://browser/bookmarks/search_suggest_query
+content://cellbroadcasts
+content://com.android.bluetooth.opp/btopp
+content://com.android.browser/bookmarks/search_suggest_query
+content://com.android.browser.home
+content://com.android.browser
+content://com.android.calendar
+content://com.android.contacts/contacts/.*/photo
+content://com.android.contacts.*
+content://com.android.contacts
+content://com.android.contacts/search_suggest_query
+content://com.android.contacts/search_suggest_shortcut
+content://com.android.email.attachmentprovider
+content://com.android.email.notifier
+content://com.android.email.provider
+content://com.android.exchange.directory.provider
+content://com.android.launcher2.settings
+content://com.android.mms.SuggestionsProvider
+content://com.android.mms.SuggestionsProvider/search_suggest_query
+content://com.android.mms.SuggestionsProvider/search_suggest_shortcut
+content://com.android.voicemail
+content://com.google.provider.NotePad.*
+content://ctspermissionwithsignaturegranting/foo.*
+content://ctspermissionwithsignaturegranting
+content://ctspermissionwithsignaturegranting/yes.*
+content://ctspermissionwithsignaturepath/foo
+content://ctspermissionwithsignaturepath.*
+content://ctspermissionwithsignaturepath
+content://ctspermissionwithsignaturepathrestricting/foo/bar
+content://ctspermissionwithsignaturepathrestricting/foo
+content://ctspermissionwithsignaturepath
+content://ctspermissionwithsignaturepath/yes
+content://ctspermissionwithsignature
+content://ctsprivateprovidergranting/foo.*
+content://ctsprivateprovidergranting/yes.*
+content://icc
+content://media/external/
+content://mms/drm/
+content://mms/part/
+content://mms
+content://mms-sms
+content://settings
+content://sms
+content://user_dictionary
+
+Fields:
+<android.provider.Telephony$Sms$Outbox: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Sent: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Conversations: android.net.Uri CONTENT_URI>
+<com.android.internal.telephony.SMSDispatcher: android.net.Uri mRawUri>
+<android.provider.Telephony$Sms$Draft: android.net.Uri CONTENT_URI>
+<com.android.providers.telephony.SmsProvider: android.net.Uri ICC_URI>
+<com.android.mms.transaction.MessageStatusService: android.net.Uri STATUS_URI>
+<com.android.providers.telephony.SmsProvider: android.net.Uri NOTIFICATION_URI>
+<android.provider.Telephony$Sms: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Inbox: android.net.Uri CONTENT_URI>
+<com.android.mms.ui.ManageSimMessages: android.net.Uri ICC_URI>
+<android.provider.Telephony$Mms: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_DRAFT_URI>
+<com.android.mms.TempFileProvider: android.net.Uri SCRAP_CONTENT_URI>
+<android.provider.Telephony$Threads: android.net.Uri OBSOLETE_THREADS_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_UNDELIVERED_URI>
+<android.provider.Telephony$Sms$Outbox: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Mms$Inbox: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_LOCKED_URI>
+<android.provider.Telephony$Sms$Sent: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_FILTER_BYPHONE_URI>
+<android.provider.Telephony$Sms$Conversations: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_CONVERSATIONS_URI>
+<com.android.internal.telephony.SMSDispatcher: android.net.Uri mRawUri>
+<android.provider.Telephony$Sms$Draft: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Mms$Draft: android.net.Uri CONTENT_URI>
+<com.android.mms.data.Conversation: android.net.Uri sAllThreadsUri>
+<com.android.providers.telephony.SmsProvider: android.net.Uri ICC_URI>
+<android.provider.Telephony$Mms: android.net.Uri REPORT_REQUEST_URI>
+<com.android.mms.transaction.MessageStatusService: android.net.Uri STATUS_URI>
+<com.android.providers.telephony.SmsProvider: android.net.Uri NOTIFICATION_URI>
+<android.provider.Telephony$Threads: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Mms$Outbox: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Mms$Rate: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms: android.net.Uri CONTENT_URI>
+<com.android.mms.data.RecipientIdCache: android.net.Uri sAllCanonical>
+<android.provider.Telephony$Mms: android.net.Uri REPORT_STATUS_URI>
+<android.provider.Telephony$Sms$Inbox: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms$PendingMessages: android.net.Uri CONTENT_URI>
+<com.android.mms.ui.ManageSimMessages: android.net.Uri ICC_URI>
+<com.android.mms.data.RecipientIdCache: android.net.Uri sSingleCanonicalAddressUri>
+<android.provider.Telephony$Mms$Sent: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Threads: android.net.Uri THREAD_ID_CONTENT_URI>
+<com.android.mms.transaction.MessagingNotification: android.net.Uri UNDELIVERED_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri SEARCH_URI>
+<android.provider.Downloads$Impl: android.net.Uri ALL_DOWNLOADS_CONTENT_URI>
+<android.provider.Downloads$Impl: android.net.Uri PUBLICLY_ACCESSIBLE_DOWNLOADS_URI>
+<android.provider.Downloads$Impl: android.net.Uri CONTENT_URI>
+<com.android.launcher2.LauncherProvider: android.net.Uri CONTENT_APPWIDGET_RESET_URI>
+<com.android.launcher2.LauncherSettings$Favorites: android.net.Uri CONTENT_URI_NO_NOTIFICATION>
+<com.android.launcher2.LauncherSettings$Favorites: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$SyncState: android.net.Uri CONTENT_URI>
+<com.android.browser.provider.BrowserProvider2$OmniboxSuggestions: android.net.Uri CONTENT_URI>
+<android.provider.Browser: android.net.Uri SEARCHES_URI>
+<android.provider.Browser: android.net.Uri BOOKMARKS_URI>
+<android.provider.BrowserContract: android.net.Uri AUTHORITY_URI>
+<com.android.browser.provider.BrowserProvider2$Thumbnails: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Settings: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Combined: android.net.Uri CONTENT_URI>
+<com.android.browser.provider.SnapshotProvider$Snapshots: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Searches: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$History: android.net.Uri CONTENT_URI>
+<com.android.browser.provider.SnapshotProvider: android.net.Uri AUTHORITY_URI>
+<android.provider.BrowserContract$Accounts: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Bookmarks: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$ImageMappings: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Images: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Bookmarks: android.net.Uri CONTENT_URI_DEFAULT_FOLDER>
+<android.provider.Contacts$Presence: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_LOOKUP_URI>
+<com.android.mms.data.Contact$ContactsCache: android.net.Uri PHONES_WITH_PRESENCE_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_VCARD_URI>
+<android.provider.Contacts$ContactMethods: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Data: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Settings: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri DELETED_CONTENT_URI>
+<com.android.contacts.model.AccountTypeWithDataSet: android.net.Uri RAW_CONTACTS_URI_LIMIT_1>
+<android.provider.ContactsContract$DataUsageFeedback: android.net.Uri FEEDBACK_URI>
+<android.provider.ContactsContract$RawContactsEntity: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Outbox: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_STREQUENT_URI>
+<android.provider.Contacts$Groups: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_PHOTO_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Sent: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Conversations: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Callable: android.net.Uri CONTENT_URI>
+<com.android.common.contacts.BaseEmailAddressAdapter$DirectoryListQuery: android.net.Uri URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Settings: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_MULTI_VCARD_URI>
+<com.android.internal.telephony.SMSDispatcher: android.net.Uri mRawUri>
+<android.provider.ContactsContract$StatusUpdates: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_LIMIT_URI>
+<android.provider.ContactsContract$Groups: android.net.Uri CONTENT_SUMMARY_URI>
+<android.provider.ContactsContract$DisplayPhoto: android.net.Uri CONTENT_MAX_DIMENSIONS_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_WITH_PHONES_URI>
+<android.provider.Contacts$GroupMembership: android.net.Uri RAW_CONTENT_URI>
+<android.provider.Telephony$Sms$Draft: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$GroupMembership: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$ContactMethods: android.net.Uri CONTENT_EMAIL_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$RawContacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$DisplayPhoto: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$RawContactsEntity: android.net.Uri PROFILE_CONTENT_URI>
+<com.android.providers.telephony.SmsProvider: android.net.Uri ICC_URI>
+<android.provider.Contacts$Extensions: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$AggregationExceptions: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StatusUpdates: android.net.Uri PROFILE_CONTENT_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri WITH_EMAIL_OR_IM_FILTER_URI>
+<com.android.contacts.model.AccountWithDataSet: android.net.Uri RAW_CONTACTS_URI_LIMIT_1>
+<com.android.email.activity.setup.AccountSetupNames: android.net.Uri PROFILE_URI>
+<android.provider.ContactsContract$SyncState: android.net.Uri CONTENT_URI>
+<com.android.contacts.list.DirectoryListLoader$DirectoryQuery: android.net.Uri URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_FREQUENT_URI>
+<android.provider.ContactsContract$ProviderStatus: android.net.Uri CONTENT_URI>
+<android.provider.Contacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_FILTER_URI>
+<com.android.mms.transaction.MessageStatusService: android.net.Uri STATUS_URI>
+<com.android.nfc.P2pLinkManager: android.net.Uri PROFILE_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_URI>
+<android.provider.Contacts$People: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_RAW_CONTACTS_URI>
+<android.provider.Contacts$Groups: android.net.Uri DELETED_CONTENT_URI>
+<com.android.contacts.GroupListLoader: android.net.Uri GROUP_LIST_URI>
+<com.android.providers.telephony.SmsProvider: android.net.Uri NOTIFICATION_URI>
+<com.android.common.contacts.DataUsageStatUpdater$DataUsageFeedback: android.net.Uri FEEDBACK_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_FAVORITES_URI>
+<android.provider.ContactsContract$Directory: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Photos: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Groups: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$ProfileSyncState: android.net.Uri CONTENT_URI>
+<com.android.mms.data.Contact$ContactsCache: android.net.Uri EMAIL_WITH_PRESENCE_URI>
+<android.provider.Telephony$Sms: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_STREQUENT_FILTER_URI>
+<android.provider.ContactsContract$CommonDataKinds$Phone: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.Contacts$Phones: android.net.Uri CONTENT_FILTER_URL>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_GROUP_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_VCARD_URI>
+<android.provider.Contacts$Organizations: android.net.Uri CONTENT_URI>
+<com.android.ex.chips.BaseRecipientAdapter$DirectoryListQuery: android.net.Uri URI>
+<android.provider.ContactsContract$CommonDataKinds$StructuredPostal: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Phones: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Inbox: android.net.Uri CONTENT_URI>
+<com.android.mms.ui.ManageSimMessages: android.net.Uri ICC_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_LOOKUP_URI>
+<android.provider.ContactsContract$DataUsageFeedback: android.net.Uri DELETE_USAGE_URI>
+<android.provider.ContactsContract$PhoneLookup: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract: android.net.Uri AUTHORITY_URI>
+<android.provider.ContactsContract$CommonDataKinds$Callable: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$CommonDataKinds$Phone: android.net.Uri CONTENT_URI>
+<com.android.providers.media.MediaProvider: android.net.Uri ALBUMART_URI>
+<android.provider.Downloads$Impl: android.net.Uri ALL_DOWNLOADS_CONTENT_URI>
+<com.android.music.MusicUtils: android.net.Uri sArtworkUri>
+<android.provider.Downloads$Impl: android.net.Uri PUBLICLY_ACCESSIBLE_DOWNLOADS_URI>
+<android.provider.Downloads$Impl: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Presence: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_LOOKUP_URI>
+<com.android.mms.data.Contact$ContactsCache: android.net.Uri PHONES_WITH_PRESENCE_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_VCARD_URI>
+<android.provider.Contacts$ContactMethods: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Data: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Settings: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri DELETED_CONTENT_URI>
+<com.android.contacts.model.AccountTypeWithDataSet: android.net.Uri RAW_CONTACTS_URI_LIMIT_1>
+<android.provider.ContactsContract$DataUsageFeedback: android.net.Uri FEEDBACK_URI>
+<android.provider.ContactsContract$RawContactsEntity: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_STREQUENT_URI>
+<android.provider.Contacts$Groups: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_PHOTO_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Callable: android.net.Uri CONTENT_URI>
+<com.android.common.contacts.BaseEmailAddressAdapter$DirectoryListQuery: android.net.Uri URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Settings: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_MULTI_VCARD_URI>
+<android.provider.ContactsContract$StatusUpdates: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_LIMIT_URI>
+<android.provider.ContactsContract$Groups: android.net.Uri CONTENT_SUMMARY_URI>
+<android.provider.ContactsContract$DisplayPhoto: android.net.Uri CONTENT_MAX_DIMENSIONS_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_WITH_PHONES_URI>
+<android.provider.Contacts$GroupMembership: android.net.Uri RAW_CONTENT_URI>
+<android.provider.Contacts$GroupMembership: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$ContactMethods: android.net.Uri CONTENT_EMAIL_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$RawContacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$DisplayPhoto: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$RawContactsEntity: android.net.Uri PROFILE_CONTENT_URI>
+<android.provider.Contacts$Extensions: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$AggregationExceptions: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StatusUpdates: android.net.Uri PROFILE_CONTENT_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri WITH_EMAIL_OR_IM_FILTER_URI>
+<com.android.contacts.model.AccountWithDataSet: android.net.Uri RAW_CONTACTS_URI_LIMIT_1>
+<com.android.email.activity.setup.AccountSetupNames: android.net.Uri PROFILE_URI>
+<android.provider.ContactsContract$SyncState: android.net.Uri CONTENT_URI>
+<com.android.contacts.list.DirectoryListLoader$DirectoryQuery: android.net.Uri URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_FREQUENT_URI>
+<android.provider.ContactsContract$ProviderStatus: android.net.Uri CONTENT_URI>
+<android.provider.Contacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_FILTER_URI>
+<com.android.nfc.P2pLinkManager: android.net.Uri PROFILE_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_URI>
+<android.provider.Contacts$People: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_RAW_CONTACTS_URI>
+<android.provider.Contacts$Groups: android.net.Uri DELETED_CONTENT_URI>
+<com.android.contacts.GroupListLoader: android.net.Uri GROUP_LIST_URI>
+<com.android.common.contacts.DataUsageStatUpdater$DataUsageFeedback: android.net.Uri FEEDBACK_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_FAVORITES_URI>
+<android.provider.ContactsContract$Directory: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Photos: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Groups: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$ProfileSyncState: android.net.Uri CONTENT_URI>
+<com.android.mms.data.Contact$ContactsCache: android.net.Uri EMAIL_WITH_PRESENCE_URI>
+<android.provider.Contacts$People: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_STREQUENT_FILTER_URI>
+<android.provider.ContactsContract$CommonDataKinds$Phone: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.Contacts$Phones: android.net.Uri CONTENT_FILTER_URL>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_GROUP_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_VCARD_URI>
+<android.provider.Contacts$Organizations: android.net.Uri CONTENT_URI>
+<com.android.ex.chips.BaseRecipientAdapter$DirectoryListQuery: android.net.Uri URI>
+<android.provider.ContactsContract$CommonDataKinds$StructuredPostal: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Phones: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_LOOKUP_URI>
+<android.provider.ContactsContract$DataUsageFeedback: android.net.Uri DELETE_USAGE_URI>
+<android.provider.ContactsContract$PhoneLookup: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract: android.net.Uri AUTHORITY_URI>
+<android.provider.ContactsContract$CommonDataKinds$Callable: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$CommonDataKinds$Phone: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Outbox: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Sent: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Conversations: android.net.Uri CONTENT_URI>
+<com.android.internal.telephony.SMSDispatcher: android.net.Uri mRawUri>
+<android.provider.Telephony$Sms$Draft: android.net.Uri CONTENT_URI>
+<com.android.providers.telephony.SmsProvider: android.net.Uri ICC_URI>
+<com.android.mms.transaction.MessageStatusService: android.net.Uri STATUS_URI>
+<com.android.providers.telephony.SmsProvider: android.net.Uri NOTIFICATION_URI>
+<android.provider.Telephony$Sms: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Inbox: android.net.Uri CONTENT_URI>
+<com.android.mms.ui.ManageSimMessages: android.net.Uri ICC_URI>
+<android.provider.CalendarContract$Attendees: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Colors: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Calendars: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Reminders: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$ExtendedProperties: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Instances: android.net.Uri CONTENT_SEARCH_BY_DAY_URI>
+<android.provider.CalendarContract$Instances: android.net.Uri CONTENT_BY_DAY_URI>
+<com.android.providers.calendar.CalendarAlarmManager: android.net.Uri SCHEDULE_ALARM_REMOVE_URI>
+<android.provider.CalendarContract$EventsEntity: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$CalendarEntity: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Events: android.net.Uri CONTENT_EXCEPTION_URI>
+<android.provider.CalendarContract$CalendarCache: android.net.Uri URI>
+<android.provider.CalendarContract$Events: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$SyncState: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Instances: android.net.Uri CONTENT_SEARCH_URI>
+<android.provider.CalendarContract$Instances: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$CalendarAlerts: android.net.Uri CONTENT_URI_BY_INSTANCE>
+<android.provider.CalendarContract$EventDays: android.net.Uri CONTENT_URI>
+<com.android.providers.calendar.CalendarAlarmManager: android.net.Uri SCHEDULE_ALARM_URI>
+<android.provider.CalendarContract$CalendarAlerts: android.net.Uri CONTENT_URI>
+<android.provider.VoicemailContract$Status: android.net.Uri CONTENT_URI>
+<android.provider.VoicemailContract$Voicemails: android.net.Uri CONTENT_URI>
+<android.provider.CallLog$Calls: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.CallLog$Calls: android.net.Uri CONTENT_URI_WITH_VOICEMAIL>
+<android.provider.CallLog$Calls: android.net.Uri CONTENT_URI>
+<android.provider.CallLog: android.net.Uri CONTENT_URI>
+<android.provider.Downloads$Impl: android.net.Uri ALL_DOWNLOADS_CONTENT_URI>
+<android.provider.Downloads$Impl: android.net.Uri PUBLICLY_ACCESSIBLE_DOWNLOADS_URI>
+<android.provider.Downloads$Impl: android.net.Uri CONTENT_URI>
+<android.provider.CallLog$Calls: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.CallLog$Calls: android.net.Uri CONTENT_URI_WITH_VOICEMAIL>
+<android.provider.CallLog$Calls: android.net.Uri CONTENT_URI>
+<android.provider.CallLog: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$CellBroadcasts: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$SyncState: android.net.Uri CONTENT_URI>
+<com.android.browser.provider.BrowserProvider2$OmniboxSuggestions: android.net.Uri CONTENT_URI>
+<android.provider.Browser: android.net.Uri SEARCHES_URI>
+<android.provider.Browser: android.net.Uri BOOKMARKS_URI>
+<android.provider.BrowserContract: android.net.Uri AUTHORITY_URI>
+<com.android.browser.provider.BrowserProvider2$Thumbnails: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Settings: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Combined: android.net.Uri CONTENT_URI>
+<com.android.browser.provider.SnapshotProvider$Snapshots: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Searches: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$History: android.net.Uri CONTENT_URI>
+<com.android.browser.provider.SnapshotProvider: android.net.Uri AUTHORITY_URI>
+<android.provider.BrowserContract$Accounts: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Bookmarks: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$ImageMappings: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Images: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Bookmarks: android.net.Uri CONTENT_URI_DEFAULT_FOLDER>
+<com.android.email.provider.EmailProvider: android.net.Uri FOLDER_STATUS_URI>
+<com.android.emailcommon.provider.EmailContent: android.net.Uri MAILBOX_NOTIFICATION_URI>
+<com.android.email.provider.EmailProvider: android.net.Uri INTEGRITY_CHECK_URI>
+<com.android.emailcommon.provider.EmailContent: android.net.Uri CONTENT_URI>
+<com.android.emailcommon.provider.EmailContent: android.net.Uri CONTENT_NOTIFIER_URI>
+<com.android.email.provider.EmailProvider: android.net.Uri ACCOUNT_BACKUP_URI>
+<com.android.email.provider.EmailProvider: android.net.Uri FOLDER_REFRESH_URI>
+<com.android.emailcommon.provider.EmailContent: android.net.Uri MAILBOX_MOST_RECENT_MESSAGE_URI>
+<com.android.providers.media.MediaProvider: android.net.Uri ALBUMART_URI>
+<com.android.music.MusicUtils: android.net.Uri sArtworkUri>
+<com.android.emailcommon.utility.AttachmentUtilities: android.net.Uri CONTENT_URI>
+<com.android.bluetooth.opp.BluetoothShare: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$SyncState: android.net.Uri CONTENT_URI>
+<com.android.browser.provider.BrowserProvider2$OmniboxSuggestions: android.net.Uri CONTENT_URI>
+<android.provider.Browser: android.net.Uri SEARCHES_URI>
+<android.provider.Browser: android.net.Uri BOOKMARKS_URI>
+<android.provider.BrowserContract: android.net.Uri AUTHORITY_URI>
+<com.android.browser.provider.BrowserProvider2$Thumbnails: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Settings: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Combined: android.net.Uri CONTENT_URI>
+<com.android.browser.provider.SnapshotProvider$Snapshots: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Searches: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$History: android.net.Uri CONTENT_URI>
+<com.android.browser.provider.SnapshotProvider: android.net.Uri AUTHORITY_URI>
+<android.provider.BrowserContract$Accounts: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Bookmarks: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$ImageMappings: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Images: android.net.Uri CONTENT_URI>
+<android.provider.BrowserContract$Bookmarks: android.net.Uri CONTENT_URI_DEFAULT_FOLDER>
+<android.provider.Downloads$Impl: android.net.Uri ALL_DOWNLOADS_CONTENT_URI>
+<com.android.providers.userdictionary.UserDictionaryProvider: android.net.Uri CONTENT_URI>
+<android.provider.UserDictionary: android.net.Uri CONTENT_URI>
+<android.provider.UserDictionary$Words: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Presence: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_LOOKUP_URI>
+<com.android.mms.data.Contact$ContactsCache: android.net.Uri PHONES_WITH_PRESENCE_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_VCARD_URI>
+<android.provider.Contacts$ContactMethods: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Data: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Settings: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri DELETED_CONTENT_URI>
+<com.android.contacts.model.AccountTypeWithDataSet: android.net.Uri RAW_CONTACTS_URI_LIMIT_1>
+<android.provider.ContactsContract$DataUsageFeedback: android.net.Uri FEEDBACK_URI>
+<android.provider.ContactsContract$RawContactsEntity: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Outbox: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_STREQUENT_URI>
+<android.provider.Contacts$Groups: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_PHOTO_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Sent: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Conversations: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Callable: android.net.Uri CONTENT_URI>
+<com.android.common.contacts.BaseEmailAddressAdapter$DirectoryListQuery: android.net.Uri URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Settings: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_MULTI_VCARD_URI>
+<com.android.internal.telephony.SMSDispatcher: android.net.Uri mRawUri>
+<android.provider.ContactsContract$StatusUpdates: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_LIMIT_URI>
+<android.provider.ContactsContract$Groups: android.net.Uri CONTENT_SUMMARY_URI>
+<android.provider.ContactsContract$DisplayPhoto: android.net.Uri CONTENT_MAX_DIMENSIONS_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_WITH_PHONES_URI>
+<android.provider.Contacts$GroupMembership: android.net.Uri RAW_CONTENT_URI>
+<android.provider.Telephony$Sms$Draft: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$GroupMembership: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$ContactMethods: android.net.Uri CONTENT_EMAIL_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$RawContacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$DisplayPhoto: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$RawContactsEntity: android.net.Uri PROFILE_CONTENT_URI>
+<com.android.providers.telephony.SmsProvider: android.net.Uri ICC_URI>
+<android.provider.Contacts$Extensions: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$AggregationExceptions: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StatusUpdates: android.net.Uri PROFILE_CONTENT_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri WITH_EMAIL_OR_IM_FILTER_URI>
+<com.android.contacts.model.AccountWithDataSet: android.net.Uri RAW_CONTACTS_URI_LIMIT_1>
+<com.android.email.activity.setup.AccountSetupNames: android.net.Uri PROFILE_URI>
+<android.provider.ContactsContract$SyncState: android.net.Uri CONTENT_URI>
+<com.android.contacts.list.DirectoryListLoader$DirectoryQuery: android.net.Uri URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_FREQUENT_URI>
+<android.provider.ContactsContract$ProviderStatus: android.net.Uri CONTENT_URI>
+<android.provider.Contacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_FILTER_URI>
+<com.android.mms.transaction.MessageStatusService: android.net.Uri STATUS_URI>
+<com.android.nfc.P2pLinkManager: android.net.Uri PROFILE_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_URI>
+<android.provider.Contacts$People: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_RAW_CONTACTS_URI>
+<android.provider.Contacts$Groups: android.net.Uri DELETED_CONTENT_URI>
+<com.android.contacts.GroupListLoader: android.net.Uri GROUP_LIST_URI>
+<com.android.providers.telephony.SmsProvider: android.net.Uri NOTIFICATION_URI>
+<com.android.common.contacts.DataUsageStatUpdater$DataUsageFeedback: android.net.Uri FEEDBACK_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_FAVORITES_URI>
+<android.provider.ContactsContract$Directory: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Photos: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Groups: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$ProfileSyncState: android.net.Uri CONTENT_URI>
+<com.android.mms.data.Contact$ContactsCache: android.net.Uri EMAIL_WITH_PRESENCE_URI>
+<android.provider.Telephony$Sms: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_STREQUENT_FILTER_URI>
+<android.provider.ContactsContract$CommonDataKinds$Phone: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.Contacts$Phones: android.net.Uri CONTENT_FILTER_URL>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_GROUP_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_VCARD_URI>
+<android.provider.Contacts$Organizations: android.net.Uri CONTENT_URI>
+<com.android.ex.chips.BaseRecipientAdapter$DirectoryListQuery: android.net.Uri URI>
+<android.provider.ContactsContract$CommonDataKinds$StructuredPostal: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Phones: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms$Inbox: android.net.Uri CONTENT_URI>
+<com.android.mms.ui.ManageSimMessages: android.net.Uri ICC_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_LOOKUP_URI>
+<android.provider.ContactsContract$DataUsageFeedback: android.net.Uri DELETE_USAGE_URI>
+<android.provider.ContactsContract$PhoneLookup: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract: android.net.Uri AUTHORITY_URI>
+<android.provider.ContactsContract$CommonDataKinds$Callable: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$CommonDataKinds$Phone: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Presence: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_LOOKUP_URI>
+<com.android.mms.data.Contact$ContactsCache: android.net.Uri PHONES_WITH_PRESENCE_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_VCARD_URI>
+<android.provider.Contacts$ContactMethods: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Data: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Settings: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri DELETED_CONTENT_URI>
+<com.android.contacts.model.AccountTypeWithDataSet: android.net.Uri RAW_CONTACTS_URI_LIMIT_1>
+<android.provider.ContactsContract$DataUsageFeedback: android.net.Uri FEEDBACK_URI>
+<android.provider.ContactsContract$RawContactsEntity: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_STREQUENT_URI>
+<android.provider.Contacts$Groups: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_PHOTO_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Callable: android.net.Uri CONTENT_URI>
+<com.android.common.contacts.BaseEmailAddressAdapter$DirectoryListQuery: android.net.Uri URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Settings: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_MULTI_VCARD_URI>
+<android.provider.ContactsContract$StatusUpdates: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_LIMIT_URI>
+<android.provider.ContactsContract$Groups: android.net.Uri CONTENT_SUMMARY_URI>
+<android.provider.ContactsContract$DisplayPhoto: android.net.Uri CONTENT_MAX_DIMENSIONS_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_WITH_PHONES_URI>
+<android.provider.Contacts$GroupMembership: android.net.Uri RAW_CONTENT_URI>
+<android.provider.Contacts$GroupMembership: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$ContactMethods: android.net.Uri CONTENT_EMAIL_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$RawContacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$DisplayPhoto: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$RawContactsEntity: android.net.Uri PROFILE_CONTENT_URI>
+<android.provider.Contacts$Extensions: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$AggregationExceptions: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StatusUpdates: android.net.Uri PROFILE_CONTENT_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri WITH_EMAIL_OR_IM_FILTER_URI>
+<com.android.contacts.model.AccountWithDataSet: android.net.Uri RAW_CONTACTS_URI_LIMIT_1>
+<com.android.email.activity.setup.AccountSetupNames: android.net.Uri PROFILE_URI>
+<android.provider.ContactsContract$SyncState: android.net.Uri CONTENT_URI>
+<com.android.contacts.list.DirectoryListLoader$DirectoryQuery: android.net.Uri URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_FREQUENT_URI>
+<android.provider.ContactsContract$ProviderStatus: android.net.Uri CONTENT_URI>
+<android.provider.Contacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_FILTER_URI>
+<com.android.nfc.P2pLinkManager: android.net.Uri PROFILE_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_URI>
+<android.provider.Contacts$People: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_RAW_CONTACTS_URI>
+<android.provider.Contacts$Groups: android.net.Uri DELETED_CONTENT_URI>
+<com.android.contacts.GroupListLoader: android.net.Uri GROUP_LIST_URI>
+<com.android.common.contacts.DataUsageStatUpdater$DataUsageFeedback: android.net.Uri FEEDBACK_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_FAVORITES_URI>
+<android.provider.ContactsContract$Directory: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Photos: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Groups: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$ProfileSyncState: android.net.Uri CONTENT_URI>
+<com.android.mms.data.Contact$ContactsCache: android.net.Uri EMAIL_WITH_PRESENCE_URI>
+<android.provider.Contacts$People: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_STREQUENT_FILTER_URI>
+<android.provider.ContactsContract$CommonDataKinds$Phone: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.Contacts$Phones: android.net.Uri CONTENT_FILTER_URL>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_GROUP_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_VCARD_URI>
+<android.provider.Contacts$Organizations: android.net.Uri CONTENT_URI>
+<com.android.ex.chips.BaseRecipientAdapter$DirectoryListQuery: android.net.Uri URI>
+<android.provider.ContactsContract$CommonDataKinds$StructuredPostal: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Phones: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_LOOKUP_URI>
+<android.provider.ContactsContract$DataUsageFeedback: android.net.Uri DELETE_USAGE_URI>
+<android.provider.ContactsContract$PhoneLookup: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract: android.net.Uri AUTHORITY_URI>
+<android.provider.ContactsContract$CommonDataKinds$Callable: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$CommonDataKinds$Phone: android.net.Uri CONTENT_URI>
+<android.provider.Settings$Secure: android.net.Uri CONTENT_URI>
+<android.provider.Settings$Bookmarks: android.net.Uri CONTENT_URI>
+<android.provider.Settings$System: android.net.Uri CONTENT_URI>
+<com.android.launcher2.LauncherProvider: android.net.Uri CONTENT_APPWIDGET_RESET_URI>
+<com.android.launcher2.LauncherSettings$Favorites: android.net.Uri CONTENT_URI_NO_NOTIFICATION>
+<com.android.launcher2.LauncherSettings$Favorites: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Presence: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_LOOKUP_URI>
+<com.android.mms.data.Contact$ContactsCache: android.net.Uri PHONES_WITH_PRESENCE_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_VCARD_URI>
+<android.provider.Contacts$ContactMethods: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Data: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Settings: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri DELETED_CONTENT_URI>
+<com.android.contacts.model.AccountTypeWithDataSet: android.net.Uri RAW_CONTACTS_URI_LIMIT_1>
+<android.provider.ContactsContract$DataUsageFeedback: android.net.Uri FEEDBACK_URI>
+<android.provider.ContactsContract$RawContactsEntity: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_STREQUENT_URI>
+<android.provider.Contacts$Groups: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_PHOTO_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Callable: android.net.Uri CONTENT_URI>
+<com.android.common.contacts.BaseEmailAddressAdapter$DirectoryListQuery: android.net.Uri URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Settings: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_MULTI_VCARD_URI>
+<android.provider.ContactsContract$StatusUpdates: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StreamItems: android.net.Uri CONTENT_LIMIT_URI>
+<android.provider.ContactsContract$Groups: android.net.Uri CONTENT_SUMMARY_URI>
+<android.provider.ContactsContract$DisplayPhoto: android.net.Uri CONTENT_MAX_DIMENSIONS_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_WITH_PHONES_URI>
+<android.provider.Contacts$GroupMembership: android.net.Uri RAW_CONTENT_URI>
+<android.provider.Contacts$GroupMembership: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$ContactMethods: android.net.Uri CONTENT_EMAIL_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$RawContacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$DisplayPhoto: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$RawContactsEntity: android.net.Uri PROFILE_CONTENT_URI>
+<android.provider.Contacts$Extensions: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$AggregationExceptions: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$StatusUpdates: android.net.Uri PROFILE_CONTENT_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$People: android.net.Uri WITH_EMAIL_OR_IM_FILTER_URI>
+<com.android.contacts.model.AccountWithDataSet: android.net.Uri RAW_CONTACTS_URI_LIMIT_1>
+<com.android.email.activity.setup.AccountSetupNames: android.net.Uri PROFILE_URI>
+<android.provider.ContactsContract$SyncState: android.net.Uri CONTENT_URI>
+<com.android.contacts.list.DirectoryListLoader$DirectoryQuery: android.net.Uri URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_FREQUENT_URI>
+<android.provider.ContactsContract$ProviderStatus: android.net.Uri CONTENT_URI>
+<android.provider.Contacts: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_FILTER_URI>
+<com.android.nfc.P2pLinkManager: android.net.Uri PROFILE_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_URI>
+<android.provider.Contacts$People: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$Profile: android.net.Uri CONTENT_RAW_CONTACTS_URI>
+<android.provider.Contacts$Groups: android.net.Uri DELETED_CONTENT_URI>
+<com.android.contacts.GroupListLoader: android.net.Uri GROUP_LIST_URI>
+<com.android.common.contacts.DataUsageStatUpdater$DataUsageFeedback: android.net.Uri FEEDBACK_URI>
+<com.android.providers.contacts.LegacyApiSupport: android.net.Uri LIVE_FOLDERS_CONTACTS_FAVORITES_URI>
+<android.provider.ContactsContract$Directory: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Photos: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Groups: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$ProfileSyncState: android.net.Uri CONTENT_URI>
+<com.android.mms.data.Contact$ContactsCache: android.net.Uri EMAIL_WITH_PRESENCE_URI>
+<android.provider.Contacts$People: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_STREQUENT_FILTER_URI>
+<android.provider.ContactsContract$CommonDataKinds$Phone: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.Contacts$Phones: android.net.Uri CONTENT_FILTER_URL>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_GROUP_URI>
+<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_VCARD_URI>
+<android.provider.Contacts$Organizations: android.net.Uri CONTENT_URI>
+<com.android.ex.chips.BaseRecipientAdapter$DirectoryListQuery: android.net.Uri URI>
+<android.provider.ContactsContract$CommonDataKinds$StructuredPostal: android.net.Uri CONTENT_URI>
+<android.provider.Contacts$Phones: android.net.Uri CONTENT_URI>
+<android.provider.ContactsContract$CommonDataKinds$Email: android.net.Uri CONTENT_LOOKUP_URI>
+<android.provider.ContactsContract$DataUsageFeedback: android.net.Uri DELETE_USAGE_URI>
+<android.provider.ContactsContract$PhoneLookup: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract: android.net.Uri AUTHORITY_URI>
+<android.provider.ContactsContract$CommonDataKinds$Callable: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.ContactsContract$CommonDataKinds$Phone: android.net.Uri CONTENT_URI>
+<android.provider.CallLog$Calls: android.net.Uri CONTENT_FILTER_URI>
+<android.provider.CallLog$Calls: android.net.Uri CONTENT_URI_WITH_VOICEMAIL>
+<android.provider.CallLog$Calls: android.net.Uri CONTENT_URI>
+<android.provider.CallLog: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Mms: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_DRAFT_URI>
+<com.android.mms.TempFileProvider: android.net.Uri SCRAP_CONTENT_URI>
+<android.provider.Telephony$Threads: android.net.Uri OBSOLETE_THREADS_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_UNDELIVERED_URI>
+<android.provider.Telephony$Sms$Outbox: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Mms$Inbox: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_LOCKED_URI>
+<android.provider.Telephony$Sms$Sent: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_FILTER_BYPHONE_URI>
+<android.provider.Telephony$Sms$Conversations: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_CONVERSATIONS_URI>
+<com.android.internal.telephony.SMSDispatcher: android.net.Uri mRawUri>
+<android.provider.Telephony$Sms$Draft: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Mms$Draft: android.net.Uri CONTENT_URI>
+<com.android.mms.data.Conversation: android.net.Uri sAllThreadsUri>
+<com.android.providers.telephony.SmsProvider: android.net.Uri ICC_URI>
+<android.provider.Telephony$Mms: android.net.Uri REPORT_REQUEST_URI>
+<com.android.mms.transaction.MessageStatusService: android.net.Uri STATUS_URI>
+<com.android.providers.telephony.SmsProvider: android.net.Uri NOTIFICATION_URI>
+<android.provider.Telephony$Threads: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Mms$Outbox: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Mms$Rate: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Sms: android.net.Uri CONTENT_URI>
+<com.android.mms.data.RecipientIdCache: android.net.Uri sAllCanonical>
+<android.provider.Telephony$Mms: android.net.Uri REPORT_STATUS_URI>
+<android.provider.Telephony$Sms$Inbox: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms$PendingMessages: android.net.Uri CONTENT_URI>
+<com.android.mms.ui.ManageSimMessages: android.net.Uri ICC_URI>
+<com.android.mms.data.RecipientIdCache: android.net.Uri sSingleCanonicalAddressUri>
+<android.provider.Telephony$Mms$Sent: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri CONTENT_URI>
+<android.provider.Telephony$Threads: android.net.Uri THREAD_ID_CONTENT_URI>
+<com.android.mms.transaction.MessagingNotification: android.net.Uri UNDELIVERED_URI>
+<android.provider.Telephony$MmsSms: android.net.Uri SEARCH_URI>
+<android.provider.CalendarContract$Attendees: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Colors: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Calendars: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Reminders: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$ExtendedProperties: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Instances: android.net.Uri CONTENT_SEARCH_BY_DAY_URI>
+<android.provider.CalendarContract$Instances: android.net.Uri CONTENT_BY_DAY_URI>
+<com.android.providers.calendar.CalendarAlarmManager: android.net.Uri SCHEDULE_ALARM_REMOVE_URI>
+<android.provider.CalendarContract$EventsEntity: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$CalendarEntity: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Events: android.net.Uri CONTENT_EXCEPTION_URI>
+<android.provider.CalendarContract$CalendarCache: android.net.Uri URI>
+<android.provider.CalendarContract$Events: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$SyncState: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$Instances: android.net.Uri CONTENT_SEARCH_URI>
+<android.provider.CalendarContract$Instances: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract: android.net.Uri CONTENT_URI>
+<android.provider.CalendarContract$CalendarAlerts: android.net.Uri CONTENT_URI_BY_INSTANCE>
+<android.provider.CalendarContract$EventDays: android.net.Uri CONTENT_URI>
+<com.android.providers.calendar.CalendarAlarmManager: android.net.Uri SCHEDULE_ALARM_URI>
+<android.provider.CalendarContract$CalendarAlerts: android.net.Uri CONTENT_URI>
+<com.android.providers.userdictionary.UserDictionaryProvider: android.net.Uri CONTENT_URI>
+<android.provider.UserDictionary: android.net.Uri CONTENT_URI>
+<android.provider.UserDictionary$Words: android.net.Uri CONTENT_URI>

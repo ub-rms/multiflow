@@ -1,0 +1,29 @@
+class: android.telephony.TelephonyManager
+getAllCellInfo 
+getSystemService
+getSimSerialNumber
+getAllCellInfo
+getCallState
+getCellLocation
+getDeviceId
+getDeviceSoftwareVersion 
+getLine1Number
+getNeighboringCellInfo
+getSimSerialNumber
+getSubscriberId
+getVoiceMailAlphaTag
+getVoiceMailNumber
+class: android.location.Location
+getLatitude
+getLongitude
+class: android.telephony.SmsMessage
+getUserData
+class: android.os.Environment
+getExternalStorageState
+class: http.client.methods.
+getParams
+class: java.net.Socket
+getInputStream
+class: 	java.io.BufferedReader
+Read
+ReadLine

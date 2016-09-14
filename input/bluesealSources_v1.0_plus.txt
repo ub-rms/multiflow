@@ -1,0 +1,9 @@
+class: android.location.Location
+getLatitude
+getLongitude
+class: android.widget.EditText
+getText
+class: java.io.FileInputStream
+read
+class: android.widget.EditText
+toString

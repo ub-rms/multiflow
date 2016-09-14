@@ -1,0 +1,2242 @@
+android.app.Fragment
+: void onAttach(android.app.Activity)
+: void onActivityCreated(android.os.Bundle)
+android.content.ContextWrapper
+: void attachBaseContext(android.content.Context)
+android.accessibilityservice.AccessibilityService
+: void onAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: android.os.IBinder onBind(android.content.Intent)
+: void onInterrupt()
+: boolean onGesture(int)
+: void onServiceConnected()
+android.accounts.AccountManagerCallback
+: void run(android.accounts.AccountManagerFuture)
+android.accounts.OnAccountsUpdateListener
+: void onAccountsUpdated(android.accounts.Account[])
+android.accounts.AccountAuthenticatorActivity
+: void onCreate(android.os.Bundle)
+android.accounts.AccountAuthenticatorResponse
+: void onError(int,java.lang.String)
+: void onRequestContinued()
+: void onResult(android.os.Bundle)
+android.animation.Animator.AnimatorListener
+: void onAnimationCancel(android.animation.Animator)
+: void onAnimationEnd(android.animation.Animator)
+: void onAnimationRepeat(android.animation.Animator)
+: void onAnimationStart(android.animation.Animator)
+android.animation.TimeAnimator.TimeListener
+: void onTimeUpdate(android.animation.TimeAnimator,long,long)
+android.animation.ValueAnimator.AnimatorUpdateListener
+: void onAnimationUpdate(android.animation.ValueAnimator)
+android.animation.AnimatorListenerAdapter
+: void onAnimationCancel(android.animation.Animator)
+: void onAnimationEnd(android.animation.Animator)
+: void onAnimationRepeat(android.animation.Animator)
+: void onAnimationStart(android.animation.Animator)
+android.app.ActionBar.OnMenuVisibilityListener
+: void onMenuVisibilityChanged(boolean)
+android.app.ActionBar.OnNavigationListener
+: boolean onNavigationItemSelected(int,long)
+android.app.ActionBar.TabListener
+: void onTabReselected(android.app.ActionBar.Tab,android.app.FragmentTransaction)
+: void onTabSelected(android.app.ActionBar.Tab,android.app.FragmentTransaction)
+: void onTabUnselected(android.app.ActionBar.Tab,android.app.FragmentTransaction)
+android.app.Application.ActivityLifecycleCallbacks
+: void onActivityCreated(android.app.Activity,android.os.Bundle)
+: void onActivityDestroyed(android.app.Activity)
+: void onActivityPaused(android.app.Activity)
+: void onActivityResumed(android.app.Activity)
+: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+: void onActivityStarted(android.app.Activity)
+: void onActivityStopped(android.app.Activity)
+android.app.DatePickerDialog.OnDateSetListener
+: void onDateSet(android.widget.DatePicker,int,int,int)
+android.app.FragmentBreadCrumbs.OnBreadCrumbClickListener
+: boolean onBreadCrumbClick(android.app.FragmentManager.BackStackEntry,int)
+android.app.FragmentManager.OnBackStackChangedListener
+: void onBackStackChanged()
+android.app.KeyguardManager.OnKeyguardExitResult
+: void onKeyguardExitResult(boolean)
+android.app.LoaderManager.LoaderCallbacks
+: android.content.Loader onCreateLoader(int,android.os.Bundle)
+: void onLoadFinished(android.content.Loader)
+: void onLoaderReset(android.content.Loader)
+android.app.PendingIntent.OnFinished
+: void onSendFinished(android.app.PendingIntent,android.content.Intent,int,java.lang.String,android.os.Bundle)
+android.app.SearchManager.OnCancelListener
+: void onCancel()
+android.app.SearchManager.OnDismissListener
+: void onDismiss()
+android.app.TimePickerDialog.OnTimeSetListener
+: void onTimeSet(android.widget.TimePicker,int,int)
+android.app.Activity
+: void <init>()
+: void onActionModeFinished(android.view.ActionMode)
+: void onActionModeStarted(android.view.ActionMode)
+: void onAttachFragment(android.app.Fragment)
+: void onAttachedToWindow()
+: void onBackPressed()
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onContentChanged()
+: boolean onContextItemSelected(android.view.MenuItem)
+: void onContextMenuClosed(android.view.Menu)
+: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu.ContextMenuInfo)
+: java.lang.CharSequence onCreateDescription()
+: void onCreateNavigateUpTaskStack(android.app.TaskStackBuilder)
+: boolean onCreateOptionsMenu(android.view.Menu)
+: boolean onCreatePanelMenu(int,android.view.Menu)
+: android.view.View onCreatePanelView(int)
+: boolean onCreateThumbnail(android.graphics.Bitmap,android.graphics.Canvas)
+: android.view.View onCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet)
+: android.view.View onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet)
+: void onDetachedFromWindow()
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyLongPress(int,android.view.KeyEvent)
+: boolean onKeyMultiple(int,int,android.view.KeyEvent)
+: boolean onKeyShortcut(int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: void onLowMemory()
+: boolean onMenuItemSelected(int,android.view.MenuItem)
+: boolean onMenuOpened(int,android.view.Menu)
+: boolean onNavigateUp()
+: boolean onNavigateUpFromChild(android.app.Activity)
+: boolean onOptionsItemSelected(android.view.MenuItem)
+: void onOptionsMenuClosed(android.view.Menu)
+: void onPanelClosed(int,android.view.Menu)
+: void onPrepareNavigateUpTaskStack(android.app.TaskStackBuilder)
+: boolean onPrepareOptionsMenu(android.view.Menu)
+: boolean onPreparePanel(int,android.view.View,android.view.Menu)
+: java.lang.Object onRetainNonConfigurationInstance()
+: boolean onSearchRequested()
+: boolean onTouchEvent(android.view.MotionEvent)
+: boolean onTrackballEvent(android.view.MotionEvent)
+: void onTrimMemory(int)
+: void onUserInteraction()
+: void onWindowAttributesChanged(android.view.WindowManager.LayoutParams)
+: void onWindowFocusChanged(boolean)
+: android.view.ActionMode onWindowStartingActionMode(android.view.ActionMode.Callback)
+: void onActivityResult(int,int,android.content.Intent)
+: void onApplyThemeResource(android.content.res.Resources.Theme,int,boolean)
+: void onChildTitleChanged(android.app.Activity,java.lang.CharSequence)
+: void onCreate(android.os.Bundle)
+: android.app.Dialog onCreateDialog(int)
+: android.app.Dialog onCreateDialog(int,android.os.Bundle)
+: void onDestroy()
+: void onNewIntent(android.content.Intent)
+: void onPause()
+: void onPostCreate(android.os.Bundle)
+: void onPostResume()
+: void onPrepareDialog(int,android.app.Dialog)
+: void onPrepareDialog(int,android.app.Dialog,android.os.Bundle)
+: void onRestart()
+: void onRestoreInstanceState(android.os.Bundle)
+: void onResume()
+: void onSaveInstanceState(android.os.Bundle)
+: void onStart()
+: void onStop()
+: void onTitleChanged(java.lang.CharSequence,int)
+: void onUserLeaveHint()
+android.app.ActivityGroup
+: void onCreate(android.os.Bundle)
+: void onDestroy()
+: void onPause()
+: void onResume()
+: void onSaveInstanceState(android.os.Bundle)
+: void onStop()
+android.app.AlertDialog
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: void onCreate(android.os.Bundle)
+android.app.AliasActivity
+: void onCreate(android.os.Bundle)
+android.app.Application
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onCreate()
+: void onLowMemory()
+: void onTerminate()
+: void onTrimMemory(int)
+android.app.DatePickerDialog
+: void onClick(android.content.DialogInterface,int)
+: void onDateChanged(android.widget.DatePicker,int,int,int)
+: void onRestoreInstanceState(android.os.Bundle)
+: android.os.Bundle onSaveInstanceState()
+: void onStop()
+android.app.Dialog
+: void onActionModeFinished(android.view.ActionMode)
+: void onActionModeStarted(android.view.ActionMode)
+: void onAttachedToWindow()
+: void onBackPressed()
+: void onContentChanged()
+: boolean onContextItemSelected(android.view.MenuItem)
+: void onContextMenuClosed(android.view.Menu)
+: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu.ContextMenuInfo)
+: boolean onCreateOptionsMenu(android.view.Menu)
+: boolean onCreatePanelMenu(int,android.view.Menu)
+: android.view.View onCreatePanelView(int)
+: void onDetachedFromWindow()
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyLongPress(int,android.view.KeyEvent)
+: boolean onKeyMultiple(int,int,android.view.KeyEvent)
+: boolean onKeyShortcut(int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: boolean onMenuItemSelected(int,android.view.MenuItem)
+: boolean onMenuOpened(int,android.view.Menu)
+: boolean onOptionsItemSelected(android.view.MenuItem)
+: void onOptionsMenuClosed(android.view.Menu)
+: void onPanelClosed(int,android.view.Menu)
+: boolean onPrepareOptionsMenu(android.view.Menu)
+: boolean onPreparePanel(int,android.view.View,android.view.Menu)
+: void onRestoreInstanceState(android.os.Bundle)
+: android.os.Bundle onSaveInstanceState()
+: boolean onSearchRequested()
+: boolean onTouchEvent(android.view.MotionEvent)
+: boolean onTrackballEvent(android.view.MotionEvent)
+: void onWindowAttributesChanged(android.view.WindowManager.LayoutParams)
+: void onWindowFocusChanged(boolean)
+: android.view.ActionMode onWindowStartingActionMode(android.view.ActionMode.Callback)
+: void onCreate(android.os.Bundle)
+: void onStart()
+: void onStop()
+android.app.DialogFragment
+: void onActivityCreated(android.os.Bundle)
+: void onAttach(android.app.Activity)
+: void onCancel(android.content.DialogInterface)
+: void onCreate(android.os.Bundle)
+: android.app.Dialog onCreateDialog(android.os.Bundle)
+: void onDestroyView()
+: void onDetach()
+: void onDismiss(android.content.DialogInterface)
+: void onSaveInstanceState(android.os.Bundle)
+: void onStart()
+: void onStop()
+android.app.ExpandableListActivity
+: boolean onChildClick(android.widget.ExpandableListView,android.view.View,int,int,long)
+: void onContentChanged()
+: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu.ContextMenuInfo)
+: void onGroupCollapse(int)
+: void onGroupExpand(int)
+: void onRestoreInstanceState(android.os.Bundle)
+android.app.Fragment
+: void onActivityCreated(android.os.Bundle)
+: void onActivityResult(int,int,android.content.Intent)
+: void onAttach(android.app.Activity)
+: void onConfigurationChanged(android.content.res.Configuration)
+: boolean onContextItemSelected(android.view.MenuItem)
+: void onCreate(android.os.Bundle)
+: android.animation.Animator onCreateAnimator(int,boolean,int)
+: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu.ContextMenuInfo)
+: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)
+: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+: void onDestroy()
+: void onDestroyOptionsMenu()
+: void onDestroyView()
+: void onDetach()
+: void onHiddenChanged(boolean)
+: void onInflate(android.util.AttributeSet,android.os.Bundle)
+: void onInflate(android.app.Activity,android.util.AttributeSet,android.os.Bundle)
+: void onLowMemory()
+: boolean onOptionsItemSelected(android.view.MenuItem)
+: void onOptionsMenuClosed(android.view.Menu)
+: void onPause()
+: void onPrepareOptionsMenu(android.view.Menu)
+: void onResume()
+: void onSaveInstanceState(android.os.Bundle)
+: void onStart()
+: void onStop()
+: void onTrimMemory(int)
+: void onViewCreated(android.view.View,android.os.Bundle)
+: void onViewStateRestored(android.os.Bundle)
+android.app.FragmentBreadCrumbs
+: void onBackStackChanged()
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.app.Instrumentation
+: void onCreate(android.os.Bundle)
+: void onDestroy()
+: boolean onException(java.lang.Object,java.lang.Throwable)
+: void onStart()
+android.app.IntentService
+: android.os.IBinder onBind(android.content.Intent)
+: void onCreate()
+: void onDestroy()
+: void onStart(android.content.Intent,int)
+: int onStartCommand(android.content.Intent,int,int)
+: void onHandleIntent(android.content.Intent)
+android.app.LauncherActivity
+: void onCreate(android.os.Bundle)
+: void onListItemClick(android.widget.ListView,android.view.View,int,long)
+: java.util.List onQueryPackageManager(android.content.Intent)
+: void onSetContentView()
+android.app.ListActivity
+: void onContentChanged()
+: void onDestroy()
+: void onListItemClick(android.widget.ListView,android.view.View,int,long)
+: void onRestoreInstanceState(android.os.Bundle)
+android.app.ListFragment
+: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+: void onDestroyView()
+: void onListItemClick(android.widget.ListView,android.view.View,int,long)
+: void onViewCreated(android.view.View,android.os.Bundle)
+android.app.MediaRouteActionProvider
+: android.view.View onCreateActionView()
+: android.view.View onCreateActionView(android.view.MenuItem)
+: boolean onPerformDefaultAction()
+android.app.MediaRouteButton
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: int onCreateDrawableState(int)
+: void onDraw(android.graphics.Canvas)
+: void onMeasure(int,int)
+android.app.NativeActivity
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onGlobalLayout()
+: void onInputQueueCreated(android.view.InputQueue)
+: void onInputQueueDestroyed(android.view.InputQueue)
+: void onLowMemory()
+: void onWindowFocusChanged(boolean)
+: void onCreate(android.os.Bundle)
+: void onDestroy()
+: void onPause()
+: void onResume()
+: void onSaveInstanceState(android.os.Bundle)
+: void onStart()
+: void onStop()
+android.app.Presentation
+: void onDisplayChanged()
+: void onDisplayRemoved()
+: void onStart()
+: void onStop()
+android.app.ProgressDialog
+: void onStart()
+: void onCreate(android.os.Bundle)
+: void onStop()
+android.app.SearchManager
+: void onCancel(android.content.DialogInterface)
+: void onDismiss(android.content.DialogInterface)
+android.app.Service
+: void <init>()
+: android.os.IBinder onBind(android.content.Intent)
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onCreate()
+: void onDestroy()
+: void onLowMemory()
+: void onRebind(android.content.Intent)
+: void onStart(android.content.Intent,int)
+: int onStartCommand(android.content.Intent,int,int)
+: void onTaskRemoved(android.content.Intent)
+: void onTrimMemory(int)
+: boolean onUnbind(android.content.Intent)
+android.app.TabActivity
+: void onContentChanged()
+: void onChildTitleChanged(android.app.Activity,java.lang.CharSequence)
+: void onPostCreate(android.os.Bundle)
+: void onRestoreInstanceState(android.os.Bundle)
+: void onSaveInstanceState(android.os.Bundle)
+android.app.TimePickerDialog
+: void onClick(android.content.DialogInterface,int)
+: void onRestoreInstanceState(android.os.Bundle)
+: android.os.Bundle onSaveInstanceState()
+: void onTimeChanged(android.widget.TimePicker,int,int)
+: void onStop()
+android.app.admin.DeviceAdminReceiver
+: java.lang.CharSequence onDisableRequested(android.content.Context,android.content.Intent)
+: void onDisabled(android.content.Context,android.content.Intent)
+: void onEnabled(android.content.Context,android.content.Intent)
+: void onPasswordChanged(android.content.Context,android.content.Intent)
+: void onPasswordExpiring(android.content.Context,android.content.Intent)
+: void onPasswordFailed(android.content.Context,android.content.Intent)
+: void onPasswordSucceeded(android.content.Context,android.content.Intent)
+: void onReceive(android.content.Context,android.content.Intent)
+android.app.backup.BackupAgent
+: void onBackup(android.os.ParcelFileDescriptor,android.app.backup.BackupDataOutput,android.os.ParcelFileDescriptor)
+: void onCreate()
+: void onDestroy()
+: void onFullBackup(android.app.backup.FullBackupDataOutput)
+: void onRestore(android.app.backup.BackupDataInput,int,android.os.ParcelFileDescriptor)
+: void onRestoreFile(android.os.ParcelFileDescriptor,long,java.io.File,int,long,long)
+android.app.backup.BackupAgentHelper
+: void onBackup(android.os.ParcelFileDescriptor,android.app.backup.BackupDataOutput,android.os.ParcelFileDescriptor)
+: void onRestore(android.app.backup.BackupDataInput,int,android.os.ParcelFileDescriptor)
+android.app.backup.RestoreObserver
+: void onUpdate(int,java.lang.String)
+android.appwidget.AppWidgetHost
+: android.appwidget.AppWidgetHostView onCreateView(android.content.Context,int,android.appwidget.AppWidgetProviderInfo)
+: void onProviderChanged(int,android.appwidget.AppWidgetProviderInfo)
+: void onProvidersChanged()
+android.appwidget.AppWidgetHostView
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.appwidget.AppWidgetProvider
+: void onAppWidgetOptionsChanged(android.content.Context,android.appwidget.AppWidgetManager,int,android.os.Bundle)
+: void onDeleted(android.content.Context,int)
+: void onDisabled(android.content.Context)
+: void onEnabled(android.content.Context)
+: void onReceive(android.content.Context,android.content.Intent)
+: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int)
+android.bluetooth.BluetoothProfile.ServiceListener
+: void onServiceConnected(int,android.bluetooth.BluetoothProfile)
+: void onServiceDisconnected(int)
+android.bluetooth.BluetoothHealthCallback
+: void onHealthAppConfigurationStatusChange(android.bluetooth.BluetoothHealthAppConfiguration,int)
+: void onHealthChannelStateChange(android.bluetooth.BluetoothHealthAppConfiguration,android.bluetooth.BluetoothDevice,int,int,android.os.ParcelFileDescriptor,int)
+android.content.ClipboardManager.OnPrimaryClipChangedListener
+: void onPrimaryClipChanged()
+android.content.ComponentCallbacks
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onLowMemory()
+android.content.ComponentCallbacks2
+: void onLowMemory()
+: void onTrimMemory(int)
+: void onConfigurationChanged(android.content.res.Configuration)
+android.content.DialogInterface.OnCancelListener
+: void onCancel(android.content.DialogInterface)
+android.content.DialogInterface.OnClickListener
+: void onClick(android.content.DialogInterface,int)
+android.content.DialogInterface.OnDismissListener
+: void onDismiss(android.content.DialogInterface)
+android.content.DialogInterface.OnKeyListener
+: boolean onKey(android.content.DialogInterface,int,android.view.KeyEvent)
+android.content.DialogInterface.OnMultiChoiceClickListener
+: void onClick(android.content.DialogInterface,int,boolean)
+android.content.DialogInterface.OnShowListener
+: void onShow(android.content.DialogInterface)
+android.content.IntentSender.OnFinished
+: void onSendFinished(android.content.IntentSender,android.content.Intent,int,java.lang.String,android.os.Bundle)
+android.content.Loader.OnLoadCanceledListener
+: void onLoadCanceled(android.content.Loader)
+android.content.Loader.OnLoadCompleteListener
+: void onLoadComplete(android.content.Loader)
+android.content.ServiceConnection
+: void onServiceConnected(android.content.ComponentName,android.os.IBinder)
+: void onServiceDisconnected(android.content.ComponentName)
+android.content.SharedPreferences.OnSharedPreferenceChangeListener
+: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+android.content.SyncStatusObserver
+: void onStatusChanged(int)
+android.content.AbstractThreadedSyncAdapter
+: void onPerformSync(android.accounts.Account,android.os.Bundle,java.lang.String,android.content.ContentProviderClient,android.content.SyncResult)
+: void onSyncCanceled(java.lang.Thread)
+: void onSyncCanceled()
+android.content.AsyncQueryHandler
+: void onDeleteComplete(int,java.lang.Object,int)
+: void onInsertComplete(int,java.lang.Object,android.net.Uri)
+: void onQueryComplete(int,java.lang.Object,android.database.Cursor)
+: void onUpdateComplete(int,java.lang.Object,int)
+android.content.AsyncTaskLoader
+: void onCanceled()
+: boolean onCancelLoad()
+: void onForceLoad()
+: null onLoadInBackground()
+android.content.BroadcastReceiver
+: void <init>()
+: void onReceive(android.content.Context,android.content.Intent)
+android.content.ContentProvider
+: void onConfigurationChanged(android.content.res.Configuration)
+: boolean onCreate()
+: void onLowMemory()
+: void onTrimMemory(int)
+: android.net.Uri insert(android.net.Uri,android.content.ContentValues)
+: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)
+: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,android.os.CancellationSignal)
+: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])
+android.content.CursorLoader
+: void onCanceled(android.database.Cursor)
+: void onReset()
+: void onStartLoading()
+: void onStopLoading()
+android.content.Loader
+: void onContentChanged()
+: void onAbandon()
+: boolean onCancelLoad()
+: void onForceLoad()
+: void onReset()
+: void onStartLoading()
+: void onStopLoading()
+android.content.Loader.ForceLoadContentObserver
+: void onChange(boolean)
+android.content.SearchRecentSuggestionsProvider
+: boolean onCreate()
+android.content.SyncContext
+: void onFinished(android.content.SyncResult)
+android.database.CrossProcessCursor
+: boolean onMove(int,int)
+android.database.DatabaseErrorHandler
+: void onCorruption(android.database.sqlite.SQLiteDatabase)
+android.database.AbstractCursor
+: boolean onMove(int,int)
+: void onChange(boolean)
+android.database.AbstractCursor.SelfContentObserver
+: void onChange(boolean)
+android.database.ContentObserver
+: void onChange(boolean,android.net.Uri)
+: void onChange(boolean)
+android.database.CrossProcessCursorWrapper
+: boolean onMove(int,int)
+android.database.CursorWindow
+: void onAllReferencesReleased()
+android.database.DataSetObserver
+: void onChanged()
+: void onInvalidated()
+android.database.DefaultDatabaseErrorHandler
+: void onCorruption(android.database.sqlite.SQLiteDatabase)
+android.database.MergeCursor
+: boolean onMove(int,int)
+android.database.sqlite.SQLiteTransactionListener
+: void onBegin()
+: void onCommit()
+: void onRollback()
+android.database.sqlite.SQLiteClosable
+: void onAllReferencesReleased()
+: void onAllReferencesReleasedFromContainer()
+android.database.sqlite.SQLiteCursor
+: boolean onMove(int,int)
+android.database.sqlite.SQLiteDatabase
+: void onAllReferencesReleased()
+android.database.sqlite.SQLiteOpenHelper
+: void onConfigure(android.database.sqlite.SQLiteDatabase)
+: void onCreate(android.database.sqlite.SQLiteDatabase)
+: void onDowngrade(android.database.sqlite.SQLiteDatabase,int,int)
+: void onOpen(android.database.sqlite.SQLiteDatabase)
+: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+android.database.sqlite.SQLiteProgram
+: void onAllReferencesReleased()
+android.drm.DrmManagerClient.OnErrorListener
+: void onError(android.drm.DrmManagerClient,android.drm.DrmErrorEvent)
+android.drm.DrmManagerClient.OnEventListener
+: void onEvent(android.drm.DrmManagerClient,android.drm.DrmEvent)
+android.drm.DrmManagerClient.OnInfoListener
+: void onInfo(android.drm.DrmManagerClient,android.drm.DrmInfoEvent)
+android.gesture.GestureOverlayView.OnGestureListener
+: void onGesture(android.gesture.GestureOverlayView,android.view.MotionEvent)
+: void onGestureCancelled(android.gesture.GestureOverlayView,android.view.MotionEvent)
+: void onGestureEnded(android.gesture.GestureOverlayView,android.view.MotionEvent)
+: void onGestureStarted(android.gesture.GestureOverlayView,android.view.MotionEvent)
+android.gesture.GestureOverlayView.OnGesturePerformedListener
+: void onGesturePerformed(android.gesture.GestureOverlayView,android.gesture.Gesture)
+android.gesture.GestureOverlayView.OnGesturingListener
+: void onGesturingEnded(android.gesture.GestureOverlayView)
+: void onGesturingStarted(android.gesture.GestureOverlayView)
+android.gesture.GestureOverlayView
+: void onDetachedFromWindow()
+android.graphics.SurfaceTexture.OnFrameAvailableListener
+: void onFrameAvailable(android.graphics.SurfaceTexture)
+android.graphics.drawable.AnimationDrawable
+: void run()
+android.graphics.drawable.BitmapDrawable
+: void onBoundsChange(android.graphics.Rect)
+android.graphics.drawable.ClipDrawable
+: void onBoundsChange(android.graphics.Rect)
+: boolean onLevelChange(int)
+: boolean onStateChange(int)
+android.graphics.drawable.Drawable
+: void onBoundsChange(android.graphics.Rect)
+: boolean onLevelChange(int)
+: boolean onStateChange(int)
+android.graphics.drawable.DrawableContainer
+: void onBoundsChange(android.graphics.Rect)
+: boolean onLevelChange(int)
+: boolean onStateChange(int)
+android.graphics.drawable.GradientDrawable
+: void onBoundsChange(android.graphics.Rect)
+: boolean onLevelChange(int)
+android.graphics.drawable.InsetDrawable
+: void onBoundsChange(android.graphics.Rect)
+: boolean onStateChange(int)
+android.graphics.drawable.LayerDrawable
+: void onBoundsChange(android.graphics.Rect)
+: boolean onLevelChange(int)
+: boolean onStateChange(int)
+android.graphics.drawable.LevelListDrawable
+: boolean onLevelChange(int)
+android.graphics.drawable.RotateDrawable
+: void onBoundsChange(android.graphics.Rect)
+: boolean onLevelChange(int)
+: boolean onStateChange(int)
+android.graphics.drawable.ScaleDrawable
+: void onBoundsChange(android.graphics.Rect)
+: boolean onLevelChange(int)
+: boolean onStateChange(int)
+android.graphics.drawable.ShapeDrawable
+: void onBoundsChange(android.graphics.Rect)
+: void onDraw(android.graphics.drawable.shapes.Shape,android.graphics.Canvas,int)
+android.graphics.drawable.StateListDrawable
+: boolean onStateChange(int)
+android.graphics.drawable.shapes.PathShape
+: void onResize(float,float)
+android.graphics.drawable.shapes.RectShape
+: void onResize(float,float)
+android.graphics.drawable.shapes.RoundRectShape
+: void onResize(float,float)
+android.graphics.drawable.shapes.Shape
+: void onResize(float,float)
+android.hardware.Camera.AutoFocusCallback
+: void onAutoFocus(boolean,android.hardware.Camera)
+android.hardware.Camera.AutoFocusMoveCallback
+: void onAutoFocusMoving(boolean,android.hardware.Camera)
+android.hardware.Camera.ErrorCallback
+: void onError(int,android.hardware.Camera)
+android.hardware.Camera.FaceDetectionListener
+: void onFaceDetection(android.hardware.Camera.Face[],android.hardware.Camera)
+android.hardware.Camera.OnZoomChangeListener
+: void onZoomChange(int,boolean,android.hardware.Camera)
+android.hardware.Camera.PictureCallback
+: void onPictureTaken(byte,android.hardware.Camera)
+android.hardware.Camera.PreviewCallback
+: void onPreviewFrame(byte,android.hardware.Camera)
+android.hardware.Camera.ShutterCallback
+: void onShutter()
+android.hardware.SensorEventListener
+: void onAccuracyChanged(android.hardware.Sensor,int)
+: void onSensorChanged(android.hardware.SensorEvent)
+android.hardware.SensorListener
+: void onAccuracyChanged(int,int)
+: void onSensorChanged(int,float)
+android.hardware.display.DisplayManager.DisplayListener
+: void onDisplayAdded(int)
+: void onDisplayChanged(int)
+: void onDisplayRemoved(int)
+android.hardware.input.InputManager.InputDeviceListener
+: void onInputDeviceAdded(int)
+: void onInputDeviceChanged(int)
+: void onInputDeviceRemoved(int)
+android.inputmethodservice.KeyboardView.OnKeyboardActionListener
+: void onKey(int,int)
+: void onPress(int)
+: void onRelease(int)
+: void onText(java.lang.CharSequence)
+android.inputmethodservice.AbstractInputMethodService
+: android.os.IBinder onBind(android.content.Intent)
+: android.inputmethodservice.AbstractInputMethodService.AbstractInputMethodImpl onCreateInputMethodInterface()
+: android.inputmethodservice.AbstractInputMethodService.AbstractInputMethodSessionImpl onCreateInputMethodSessionInterface()
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: boolean onTrackballEvent(android.view.MotionEvent)
+android.inputmethodservice.ExtractEditText
+: boolean onTextContextMenuItem(int)
+: void onSelectionChanged(int,int)
+android.inputmethodservice.InputMethodService
+: void onAppPrivateCommand(java.lang.String,android.os.Bundle)
+: void onBindInput()
+: void onComputeInsets(android.inputmethodservice.InputMethodService.Insets)
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onConfigureWindow(android.view.Window,boolean,boolean)
+: void onCreate()
+: android.view.View onCreateCandidatesView()
+: android.view.View onCreateExtractTextView()
+: android.inputmethodservice.AbstractInputMethodService.AbstractInputMethodImpl onCreateInputMethodInterface()
+: android.inputmethodservice.AbstractInputMethodService.AbstractInputMethodSessionImpl onCreateInputMethodSessionInterface()
+: android.view.View onCreateInputView()
+: void onDestroy()
+: void onDisplayCompletions(android.view.inputmethod.CompletionInfo[])
+: boolean onEvaluateFullscreenMode()
+: boolean onEvaluateInputViewShown()
+: boolean onExtractTextContextMenuItem(int)
+: void onExtractedCursorMovement(int,int)
+: void onExtractedSelectionChanged(int,int)
+: void onExtractedTextClicked()
+: void onExtractingInputChanged(android.view.inputmethod.EditorInfo)
+: void onFinishCandidatesView(boolean)
+: void onFinishInput()
+: void onFinishInputView(boolean)
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: void onInitializeInterface()
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyLongPress(int,android.view.KeyEvent)
+: boolean onKeyMultiple(int,int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: boolean onShowInputRequested(int,boolean)
+: void onStartCandidatesView(android.view.inputmethod.EditorInfo,boolean)
+: void onStartInput(android.view.inputmethod.EditorInfo,boolean)
+: void onStartInputView(android.view.inputmethod.EditorInfo,boolean)
+: boolean onTrackballEvent(android.view.MotionEvent)
+: void onUnbindInput()
+: void onUpdateCursor(android.graphics.Rect)
+: void onUpdateExtractedText(int,android.view.inputmethod.ExtractedText)
+: void onUpdateExtractingViews(android.view.inputmethod.EditorInfo)
+: void onUpdateExtractingVisibility(android.view.inputmethod.EditorInfo)
+: void onUpdateSelection(int,int,int,int,int,int)
+: void onViewClicked(boolean)
+: void onWindowHidden()
+: void onWindowShown()
+: void onCurrentInputMethodSubtypeChanged(android.view.inputmethod.InputMethodSubtype)
+android.inputmethodservice.Keyboard.Key
+: void onPressed()
+: void onReleased(boolean)
+android.inputmethodservice.KeyboardView
+: void onDetachedFromWindow()
+: void onDraw(android.graphics.Canvas)
+: boolean onHoverEvent(android.view.MotionEvent)
+: void onMeasure(int,int)
+: void onSizeChanged(int,int,int,int)
+: boolean onTouchEvent(android.view.MotionEvent)
+: boolean onLongPress(android.inputmethodservice.Keyboard.Key)
+android.location.GpsStatus.Listener
+: void onGpsStatusChanged(int)
+android.location.GpsStatus.NmeaListener
+: void onNmeaReceived(long,java.lang.String)
+android.location.LocationListener
+: void onLocationChanged(android.location.Location)
+: void onProviderDisabled(java.lang.String)
+: void onProviderEnabled(java.lang.String)
+: void onStatusChanged(java.lang.String,int,android.os.Bundle)
+android.media.AudioManager.OnAudioFocusChangeListener
+: void onAudioFocusChange(int)
+android.media.AudioRecord.OnRecordPositionUpdateListener
+: void onMarkerReached(android.media.AudioRecord)
+: void onPeriodicNotification(android.media.AudioRecord)
+android.media.AudioTrack.OnPlaybackPositionUpdateListener
+: void onMarkerReached(android.media.AudioTrack)
+: void onPeriodicNotification(android.media.AudioTrack)
+android.media.JetPlayer.OnJetEventListener
+: void onJetEvent(android.media.JetPlayer,short,byte,byte,byte,byte)
+: void onJetNumQueuedSegmentUpdate(android.media.JetPlayer,int)
+: void onJetPauseUpdate(android.media.JetPlayer,int)
+: void onJetUserIdUpdate(android.media.JetPlayer,int,int)
+android.media.MediaPlayer.OnBufferingUpdateListener
+: void onBufferingUpdate(android.media.MediaPlayer,int)
+android.media.MediaPlayer.OnCompletionListener
+: void onCompletion(android.media.MediaPlayer)
+android.media.MediaPlayer.OnErrorListener
+: boolean onError(android.media.MediaPlayer,int,int)
+android.media.MediaPlayer.OnInfoListener
+: boolean onInfo(android.media.MediaPlayer,int,int)
+android.media.MediaPlayer.OnPreparedListener
+: void onPrepared(android.media.MediaPlayer)
+android.media.MediaPlayer.OnSeekCompleteListener
+: void onSeekComplete(android.media.MediaPlayer)
+android.media.MediaPlayer.OnTimedTextListener
+: void onTimedText(android.media.MediaPlayer,android.media.TimedText)
+android.media.MediaPlayer.OnVideoSizeChangedListener
+: void onVideoSizeChanged(android.media.MediaPlayer,int,int)
+android.media.MediaRecorder.OnErrorListener
+: void onError(android.media.MediaRecorder,int,int)
+android.media.MediaRecorder.OnInfoListener
+: void onInfo(android.media.MediaRecorder,int,int)
+android.media.MediaScannerConnection.MediaScannerConnectionClient
+: void onMediaScannerConnected()
+: void onScanCompleted(java.lang.String,android.net.Uri)
+android.media.MediaScannerConnection.OnScanCompletedListener
+: void onScanCompleted(java.lang.String,android.net.Uri)
+android.media.SoundPool.OnLoadCompleteListener
+: void onLoadComplete(android.media.SoundPool,int,int)
+android.media.MediaRouter.Callback
+: void onRouteAdded(android.media.MediaRouter,android.media.MediaRouter.RouteInfo)
+: void onRouteChanged(android.media.MediaRouter,android.media.MediaRouter.RouteInfo)
+: void onRouteGrouped(android.media.MediaRouter,android.media.MediaRouter.RouteInfo,android.media.MediaRouter.RouteGroup,int)
+: void onRoutePresentationDisplayChanged(android.media.MediaRouter,android.media.MediaRouter.RouteInfo)
+: void onRouteRemoved(android.media.MediaRouter,android.media.MediaRouter.RouteInfo)
+: void onRouteSelected(android.media.MediaRouter,int,android.media.MediaRouter.RouteInfo)
+: void onRouteUngrouped(android.media.MediaRouter,android.media.MediaRouter.RouteInfo,android.media.MediaRouter.RouteGroup)
+: void onRouteUnselected(android.media.MediaRouter,int,android.media.MediaRouter.RouteInfo)
+: void onRouteVolumeChanged(android.media.MediaRouter,android.media.MediaRouter.RouteInfo)
+android.media.MediaRouter.SimpleCallback
+: void onRouteAdded(android.media.MediaRouter,android.media.MediaRouter.RouteInfo)
+: void onRouteChanged(android.media.MediaRouter,android.media.MediaRouter.RouteInfo)
+: void onRouteGrouped(android.media.MediaRouter,android.media.MediaRouter.RouteInfo,android.media.MediaRouter.RouteGroup,int)
+: void onRouteRemoved(android.media.MediaRouter,android.media.MediaRouter.RouteInfo)
+: void onRouteSelected(android.media.MediaRouter,int,android.media.MediaRouter.RouteInfo)
+: void onRouteUngrouped(android.media.MediaRouter,android.media.MediaRouter.RouteInfo,android.media.MediaRouter.RouteGroup)
+: void onRouteUnselected(android.media.MediaRouter,int,android.media.MediaRouter.RouteInfo)
+: void onRouteVolumeChanged(android.media.MediaRouter,android.media.MediaRouter.RouteInfo)
+android.media.MediaRouter.VolumeCallback
+: void onVolumeSetRequest(android.media.MediaRouter.RouteInfo,int)
+: void onVolumeUpdateRequest(android.media.MediaRouter.RouteInfo,int)
+android.media.MediaScannerConnection
+: void onServiceConnected(android.content.ComponentName,android.os.IBinder)
+: void onServiceDisconnected(android.content.ComponentName)
+android.media.audiofx.AudioEffect.OnControlStatusChangeListener
+: void onControlStatusChange(android.media.audiofx.AudioEffect,boolean)
+android.media.audiofx.AudioEffect.OnEnableStatusChangeListener
+: void onEnableStatusChange(android.media.audiofx.AudioEffect,boolean)
+android.media.audiofx.BassBoost.OnParameterChangeListener
+: void onParameterChange(android.media.audiofx.BassBoost,int,int,short)
+android.media.audiofx.EnvironmentalReverb.OnParameterChangeListener
+: void onParameterChange(android.media.audiofx.EnvironmentalReverb,int,int,int)
+android.media.audiofx.Equalizer.OnParameterChangeListener
+: void onParameterChange(android.media.audiofx.Equalizer,int,int,int,int)
+android.media.audiofx.PresetReverb.OnParameterChangeListener
+: void onParameterChange(android.media.audiofx.PresetReverb,int,int,short)
+android.media.audiofx.Virtualizer.OnParameterChangeListener
+: void onParameterChange(android.media.audiofx.Virtualizer,int,int,short)
+android.media.audiofx.Visualizer.OnDataCaptureListener
+: void onFftDataCapture(android.media.audiofx.Visualizer,byte,int)
+: void onWaveFormDataCapture(android.media.audiofx.Visualizer,byte,int)
+android.media.effect.EffectUpdateListener
+: void onEffectUpdated(android.media.effect.Effect,java.lang.Object)
+android.net.VpnService
+: android.os.IBinder onBind(android.content.Intent)
+: void onRevoke()
+android.net.nsd.NsdManager.DiscoveryListener
+: void onDiscoveryStarted(java.lang.String)
+: void onDiscoveryStopped(java.lang.String)
+: void onServiceFound(android.net.nsd.NsdServiceInfo)
+: void onServiceLost(android.net.nsd.NsdServiceInfo)
+: void onStartDiscoveryFailed(java.lang.String,int)
+: void onStopDiscoveryFailed(java.lang.String,int)
+android.net.nsd.NsdManager.RegistrationListener
+: void onRegistrationFailed(android.net.nsd.NsdServiceInfo,int)
+: void onServiceRegistered(android.net.nsd.NsdServiceInfo)
+: void onServiceUnregistered(android.net.nsd.NsdServiceInfo)
+: void onUnregistrationFailed(android.net.nsd.NsdServiceInfo,int)
+android.net.nsd.NsdManager.ResolveListener
+: void onResolveFailed(android.net.nsd.NsdServiceInfo,int)
+: void onServiceResolved(android.net.nsd.NsdServiceInfo)
+android.net.sip.SipRegistrationListener
+: void onRegistering(java.lang.String)
+: void onRegistrationDone(java.lang.String,long)
+: void onRegistrationFailed(java.lang.String,int,java.lang.String)
+android.net.sip.SipAudioCall.Listener
+: void onCallBusy(android.net.sip.SipAudioCall)
+: void onCallEnded(android.net.sip.SipAudioCall)
+: void onCallEstablished(android.net.sip.SipAudioCall)
+: void onCallHeld(android.net.sip.SipAudioCall)
+: void onCalling(android.net.sip.SipAudioCall)
+: void onChanged(android.net.sip.SipAudioCall)
+: void onError(android.net.sip.SipAudioCall,int,java.lang.String)
+: void onReadyToCall(android.net.sip.SipAudioCall)
+: void onRinging(android.net.sip.SipAudioCall,android.net.sip.SipProfile)
+: void onRingingBack(android.net.sip.SipAudioCall)
+android.net.sip.SipSession.Listener
+: void onCallBusy(android.net.sip.SipSession)
+: void onCallChangeFailed(android.net.sip.SipSession,int,java.lang.String)
+: void onCallEnded(android.net.sip.SipSession)
+: void onCallEstablished(android.net.sip.SipSession,java.lang.String)
+: void onCalling(android.net.sip.SipSession)
+: void onError(android.net.sip.SipSession,int,java.lang.String)
+: void onRegistering(android.net.sip.SipSession)
+: void onRegistrationDone(android.net.sip.SipSession,int)
+: void onRegistrationFailed(android.net.sip.SipSession,int,java.lang.String)
+: void onRegistrationTimeout(android.net.sip.SipSession)
+: void onRinging(android.net.sip.SipSession,android.net.sip.SipProfile,java.lang.String)
+: void onRingingBack(android.net.sip.SipSession)
+android.net.wifi.p2p.WifiP2pManager.ActionListener
+: void onFailure(int)
+: void onSuccess()
+android.net.wifi.p2p.WifiP2pManager.ChannelListener
+: void onChannelDisconnected()
+android.net.wifi.p2p.WifiP2pManager.ConnectionInfoListener
+: void onConnectionInfoAvailable(android.net.wifi.p2p.WifiP2pInfo)
+android.net.wifi.p2p.WifiP2pManager.DnsSdServiceResponseListener
+: void onDnsSdServiceAvailable(java.lang.String,java.lang.String,android.net.wifi.p2p.WifiP2pDevice)
+android.net.wifi.p2p.WifiP2pManager.DnsSdTxtRecordListener
+: void onDnsSdTxtRecordAvailable(java.lang.String,java.util.Map,java.lang.String,java.lang.String)
+android.net.wifi.p2p.WifiP2pManager.GroupInfoListener
+: void onGroupInfoAvailable(android.net.wifi.p2p.WifiP2pGroup)
+android.net.wifi.p2p.WifiP2pManager.PeerListListener
+: void onPeersAvailable(android.net.wifi.p2p.WifiP2pDeviceList)
+android.net.wifi.p2p.WifiP2pManager.ServiceResponseListener
+: void onServiceAvailable(int,byte,android.net.wifi.p2p.WifiP2pDevice)
+android.net.wifi.p2p.WifiP2pManager.UpnpServiceResponseListener
+: void onUpnpServiceAvailable(java.util.List,java.lang.String)
+android.nfc.NfcAdapter.OnNdefPushCompleteCallback
+: void onNdefPushComplete(android.nfc.NfcEvent)
+android.opengl.GLSurfaceView.Renderer
+: void onDrawFrame(javax.microedition.khronos.opengles.GL10)
+: void onSurfaceChanged(javax.microedition.khronos.opengles.GL10,int,int)
+: void onSurfaceCreated(javax.microedition.khronos.opengles.GL10,javax.microedition.khronos.egl.EGLConfig)
+android.opengl.GLSurfaceView
+: void onPause()
+: void onResume()
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+android.os.CancellationSignal.OnCancelListener
+: void onCancel()
+android.os.RecoverySystem.ProgressListener
+: void onProgress(int)
+android.os.AsyncTask
+: java.lang.Object doInBackground(java.lang.Object[])
+: void onCancelled(java.lang.Object)
+: void onCancelled()
+: void onPostExecute(java.lang.Object)
+: void onPreExecute()
+: void onProgressUpdate(java.lang.Object[])
+android.os.Binder
+: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+android.os.CountDownTimer
+: void onFinish()
+: void onTick(long)
+android.os.FileObserver
+: void onEvent(int,java.lang.String)
+android.os.HandlerThread
+: void run()
+: void onLooperPrepared()
+android.os.RemoteCallbackList
+: void onCallbackDied(java.lang.Object)
+: void onCallbackDied()
+android.os.ResultReceiver
+: void onReceiveResult(int,android.os.Bundle)
+android.os.storage.OnObbStateChangeListener
+: void onObbStateChange(java.lang.String,int)
+android.preference.Preference.OnPreferenceChangeListener
+: boolean onPreferenceChange(android.preference.Preference,java.lang.Object)
+android.preference.Preference.OnPreferenceClickListener
+: boolean onPreferenceClick(android.preference.Preference)
+android.preference.PreferenceFragment.OnPreferenceStartFragmentCallback
+: boolean onPreferenceStartFragment(android.preference.PreferenceFragment,android.preference.Preference)
+android.preference.PreferenceManager.OnActivityDestroyListener
+: void onActivityDestroy()
+android.preference.PreferenceManager.OnActivityResultListener
+: boolean onActivityResult(int,int,android.content.Intent)
+android.preference.PreferenceManager.OnActivityStopListener
+: void onActivityStop()
+android.preference.CheckBoxPreference
+: void onBindView(android.view.View)
+android.preference.DialogPreference
+: void onActivityDestroy()
+: void onClick(android.content.DialogInterface,int)
+: void onDismiss(android.content.DialogInterface)
+: void onBindDialogView(android.view.View)
+: void onClick()
+: android.view.View onCreateDialogView()
+: void onDialogClosed(boolean)
+: void onPrepareDialogBuilder(android.app.AlertDialog.Builder)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+android.preference.EditTextPreference
+: void onAddEditTextToDialogView(android.view.View,android.widget.EditText)
+: void onBindDialogView(android.view.View)
+: void onDialogClosed(boolean)
+: java.lang.Object onGetDefaultValue(android.content.res.TypedArray,int)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: void onSetInitialValue(boolean,java.lang.Object)
+android.preference.ListPreference
+: void onDialogClosed(boolean)
+: java.lang.Object onGetDefaultValue(android.content.res.TypedArray,int)
+: void onPrepareDialogBuilder(android.app.AlertDialog.Builder)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: void onSetInitialValue(boolean,java.lang.Object)
+android.preference.MultiSelectListPreference
+: void onDialogClosed(boolean)
+: java.lang.Object onGetDefaultValue(android.content.res.TypedArray,int)
+: void onPrepareDialogBuilder(android.app.AlertDialog.Builder)
+: android.os.Parcelable onSaveInstanceState()
+: void onSetInitialValue(boolean,java.lang.Object)
+android.preference.Preference
+: void onDependencyChanged(android.preference.Preference,boolean)
+: void onAttachedToActivity()
+: void onAttachedToHierarchy(android.preference.PreferenceManager)
+: void onBindView(android.view.View)
+: void onClick()
+: android.view.View onCreateView(android.view.ViewGroup)
+: java.lang.Object onGetDefaultValue(android.content.res.TypedArray,int)
+: void onPrepareForRemoval()
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: void onSetInitialValue(boolean,java.lang.Object)
+android.preference.PreferenceActivity
+: void onBuildHeaders(java.util.List)
+: android.content.Intent onBuildStartFragmentIntent(java.lang.String,android.os.Bundle,int,int)
+: void onContentChanged()
+: android.preference.PreferenceActivity.Header onGetInitialHeader()
+: android.preference.PreferenceActivity.Header onGetNewHeader()
+: void onHeaderClick(android.preference.PreferenceActivity.Header,int)
+: boolean onIsHidingHeaders()
+: boolean onIsMultiPane()
+: boolean onPreferenceStartFragment(android.preference.PreferenceFragment,android.preference.Preference)
+: boolean onPreferenceTreeClick(android.preference.PreferenceScreen,android.preference.Preference)
+: void onActivityResult(int,int,android.content.Intent)
+: void onCreate(android.os.Bundle)
+: void onDestroy()
+: void onListItemClick(android.widget.ListView,android.view.View,int,long)
+: void onNewIntent(android.content.Intent)
+: void onRestoreInstanceState(android.os.Bundle)
+: void onSaveInstanceState(android.os.Bundle)
+: void onStop()
+android.preference.PreferenceCategory
+: boolean onPrepareAddPreference(android.preference.Preference)
+android.preference.PreferenceFragment
+: void onActivityCreated(android.os.Bundle)
+: void onActivityResult(int,int,android.content.Intent)
+: void onCreate(android.os.Bundle)
+: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+: void onDestroy()
+: void onDestroyView()
+: boolean onPreferenceTreeClick(android.preference.PreferenceScreen,android.preference.Preference)
+: void onSaveInstanceState(android.os.Bundle)
+: void onStart()
+: void onStop()
+android.preference.PreferenceGroup
+: void onAttachedToActivity()
+: boolean onPrepareAddPreference(android.preference.Preference)
+: void onPrepareForRemoval()
+android.preference.PreferenceScreen
+: void onDismiss(android.content.DialogInterface)
+: void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+: void onClick()
+: android.widget.ListAdapter onCreateRootAdapter()
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+android.preference.RingtonePreference
+: boolean onActivityResult(int,int,android.content.Intent)
+: void onAttachedToHierarchy(android.preference.PreferenceManager)
+: void onClick()
+: java.lang.Object onGetDefaultValue(android.content.res.TypedArray,int)
+: void onPrepareRingtonePickerIntent(android.content.Intent)
+: android.net.Uri onRestoreRingtone()
+: void onSaveRingtone(android.net.Uri)
+: void onSetInitialValue(boolean,java.lang.Object)
+android.preference.SwitchPreference
+: void onBindView(android.view.View)
+android.preference.TwoStatePreference
+: void onClick()
+: java.lang.Object onGetDefaultValue(android.content.res.TypedArray,int)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: void onSetInitialValue(boolean,java.lang.Object)
+android.renderscript.RenderScript.RSErrorHandler
+: void run()
+android.renderscript.RenderScript.RSMessageHandler
+: void run()
+android.renderscript.RSTextureView
+: void onSurfaceTextureAvailable(android.graphics.SurfaceTexture,int,int)
+: boolean onSurfaceTextureDestroyed(android.graphics.SurfaceTexture)
+: void onSurfaceTextureSizeChanged(android.graphics.SurfaceTexture,int,int)
+: void onSurfaceTextureUpdated(android.graphics.SurfaceTexture)
+android.service.dreams.DreamService
+: void onActionModeFinished(android.view.ActionMode)
+: void onActionModeStarted(android.view.ActionMode)
+: void onAttachedToWindow()
+: android.os.IBinder onBind(android.content.Intent)
+: void onContentChanged()
+: void onCreate()
+: boolean onCreatePanelMenu(int,android.view.Menu)
+: android.view.View onCreatePanelView(int)
+: void onDestroy()
+: void onDetachedFromWindow()
+: void onDreamingStarted()
+: void onDreamingStopped()
+: boolean onMenuItemSelected(int,android.view.MenuItem)
+: boolean onMenuOpened(int,android.view.Menu)
+: void onPanelClosed(int,android.view.Menu)
+: boolean onPreparePanel(int,android.view.View,android.view.Menu)
+: boolean onSearchRequested()
+: void onWindowAttributesChanged(android.view.WindowManager.LayoutParams)
+: void onWindowFocusChanged(boolean)
+: android.view.ActionMode onWindowStartingActionMode(android.view.ActionMode.Callback)
+android.service.textservice.SpellCheckerService
+: android.os.IBinder onBind(android.content.Intent)
+android.service.textservice.SpellCheckerService.Session
+: void onCancel()
+: void onClose()
+: void onCreate()
+: android.view.textservice.SentenceSuggestionsInfo[] onGetSentenceSuggestionsMultiple(android.view.textservice.TextInfo[],int)
+: android.view.textservice.SuggestionsInfo onGetSuggestions(android.view.textservice.TextInfo,int)
+: android.view.textservice.SuggestionsInfo[] onGetSuggestionsMultiple(android.view.textservice.TextInfo[],int,boolean)
+android.service.wallpaper.WallpaperService
+: android.os.IBinder onBind(android.content.Intent)
+: void onCreate()
+: android.service.wallpaper.WallpaperService.Engine onCreateEngine()
+: void onDestroy()
+android.service.wallpaper.WallpaperService.Engine
+: android.os.Bundle onCommand(java.lang.String,int,int,int,android.os.Bundle,boolean)
+: void onCreate(android.view.SurfaceHolder)
+: void onDesiredSizeChanged(int,int)
+: void onDestroy()
+: void onOffsetsChanged(float,float,float,float,int,int)
+: void onSurfaceChanged(android.view.SurfaceHolder,int,int,int)
+: void onSurfaceCreated(android.view.SurfaceHolder)
+: void onSurfaceDestroyed(android.view.SurfaceHolder)
+: void onSurfaceRedrawNeeded(android.view.SurfaceHolder)
+: void onTouchEvent(android.view.MotionEvent)
+: void onVisibilityChanged(boolean)
+android.speech.RecognitionListener
+: void onBeginningOfSpeech()
+: void onBufferReceived(byte)
+: void onEndOfSpeech()
+: void onError(int)
+: void onEvent(int,android.os.Bundle)
+: void onPartialResults(android.os.Bundle)
+: void onReadyForSpeech(android.os.Bundle)
+: void onResults(android.os.Bundle)
+: void onRmsChanged(float)
+android.speech.RecognitionService
+: android.os.IBinder onBind(android.content.Intent)
+: void onDestroy()
+: void onCancel(android.speech.RecognitionService.Callback)
+: void onStartListening(android.content.Intent,android.speech.RecognitionService.Callback)
+: void onStopListening(android.speech.RecognitionService.Callback)
+android.speech.tts.TextToSpeech.OnInitListener
+: void onInit(int)
+android.speech.tts.TextToSpeech.OnUtteranceCompletedListener
+: void onUtteranceCompleted(java.lang.String)
+android.speech.tts.TextToSpeechService
+: android.os.IBinder onBind(android.content.Intent)
+: void onCreate()
+: void onDestroy()
+: java.util.Set onGetFeaturesForLanguage(java.lang.String,java.lang.String,java.lang.String)
+: java.lang.String[] onGetLanguage()
+: int onIsLanguageAvailable(java.lang.String,java.lang.String,java.lang.String)
+: int onLoadLanguage(java.lang.String,java.lang.String,java.lang.String)
+: void onStop()
+: void onSynthesizeText(android.speech.tts.SynthesisRequest,android.speech.tts.SynthesisCallback)
+android.speech.tts.UtteranceProgressListener
+: void onDone(java.lang.String)
+: void onError(java.lang.String)
+: void onStart(java.lang.String)
+android.support.v13.app.FragmentTabHost
+: void onTabChanged(java.lang.String)
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+android.support.v4.app.FragmentManager.OnBackStackChangedListener
+: void onBackStackChanged()
+android.support.v4.app.LoaderManager.LoaderCallbacks
+: android.support.v4.content.Loader onCreateLoader(int,android.os.Bundle)
+: void onLoadFinished(android.support.v4.content.Loader)
+: void onLoaderReset(android.support.v4.content.Loader)
+android.support.v4.app.DialogFragment
+: void onActivityCreated(android.os.Bundle)
+: void onAttach(android.app.Activity)
+: void onCancel(android.content.DialogInterface)
+: void onCreate(android.os.Bundle)
+: android.app.Dialog onCreateDialog(android.os.Bundle)
+: void onDestroyView()
+: void onDetach()
+: void onDismiss(android.content.DialogInterface)
+: void onSaveInstanceState(android.os.Bundle)
+: void onStart()
+: void onStop()
+android.support.v4.app.Fragment
+: void onActivityCreated(android.os.Bundle)
+: void onActivityResult(int,int,android.content.Intent)
+: void onAttach(android.app.Activity)
+: void onConfigurationChanged(android.content.res.Configuration)
+: boolean onContextItemSelected(android.view.MenuItem)
+: void onCreate(android.os.Bundle)
+: android.view.animation.Animation onCreateAnimation(int,boolean,int)
+: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu.ContextMenuInfo)
+: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)
+: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+: void onDestroy()
+: void onDestroyOptionsMenu()
+: void onDestroyView()
+: void onDetach()
+: void onHiddenChanged(boolean)
+: void onInflate(android.app.Activity,android.util.AttributeSet,android.os.Bundle)
+: void onLowMemory()
+: boolean onOptionsItemSelected(android.view.MenuItem)
+: void onOptionsMenuClosed(android.view.Menu)
+: void onPause()
+: void onPrepareOptionsMenu(android.view.Menu)
+: void onResume()
+: void onSaveInstanceState(android.os.Bundle)
+: void onStart()
+: void onStop()
+: void onViewCreated(android.view.View,android.os.Bundle)
+: void onViewStateRestored(android.os.Bundle)
+android.support.v4.app.FragmentActivity
+: void onAttachFragment(android.support.v4.app.Fragment)
+: void onBackPressed()
+: void onConfigurationChanged(android.content.res.Configuration)
+: boolean onCreatePanelMenu(int,android.view.Menu)
+: android.view.View onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: void onLowMemory()
+: boolean onMenuItemSelected(int,android.view.MenuItem)
+: void onPanelClosed(int,android.view.Menu)
+: boolean onPreparePanel(int,android.view.View,android.view.Menu)
+: java.lang.Object onRetainCustomNonConfigurationInstance()
+: java.lang.Object onRetainNonConfigurationInstance()
+: void onActivityResult(int,int,android.content.Intent)
+: void onCreate(android.os.Bundle)
+: void onDestroy()
+: void onNewIntent(android.content.Intent)
+: void onPause()
+: void onPostResume()
+: void onResume()
+: void onResumeFragments()
+: void onSaveInstanceState(android.os.Bundle)
+: void onStart()
+: void onStop()
+android.support.v4.app.FragmentTabHost
+: void onTabChanged(java.lang.String)
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+android.support.v4.app.ListFragment
+: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+: void onDestroyView()
+: void onListItemClick(android.widget.ListView,android.view.View,int,long)
+: void onViewCreated(android.view.View,android.os.Bundle)
+android.support.v4.content.Loader.OnLoadCompleteListener
+: void onLoadComplete(android.support.v4.content.Loader)
+android.support.v4.content.AsyncTaskLoader
+: void onCanceled()
+: void onForceLoad()
+: null onLoadInBackground()
+android.support.v4.content.CursorLoader
+: void onCanceled(android.database.Cursor)
+: void onReset()
+: void onStartLoading()
+: void onStopLoading()
+android.support.v4.content.Loader
+: void onContentChanged()
+: void onAbandon()
+: void onForceLoad()
+: void onReset()
+: void onStartLoading()
+: void onStopLoading()
+android.support.v4.content.Loader.ForceLoadContentObserver
+: void onChange(boolean)
+android.support.v4.view.ViewPager.OnPageChangeListener
+: void onPageScrollStateChanged(int)
+: void onPageScrolled(int,float,int)
+: void onPageSelected(int)
+android.support.v4.view.AccessibilityDelegateCompat
+: void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+: void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+: boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.GestureDetectorCompat
+: boolean onTouchEvent(android.view.MotionEvent)
+android.support.v4.view.PagerTabStrip
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onDraw(android.graphics.Canvas)
+android.support.v4.view.PagerTitleStrip
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.support.v4.view.ViewCompat
+: void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+: void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.ViewGroupCompat
+: boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.ViewPager
+: boolean onInterceptTouchEvent(android.view.MotionEvent)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onDraw(android.graphics.Canvas)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+: void onPageScrolled(int,float,int)
+: boolean onRequestFocusInDescendants(int,android.graphics.Rect)
+: void onSizeChanged(int,int,int,int)
+android.support.v4.view.ViewPager.SimpleOnPageChangeListener
+: void onPageScrollStateChanged(int)
+: void onPageScrolled(int,float,int)
+: void onPageSelected(int)
+android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityStateChangeListenerCompat
+: void onAccessibilityStateChanged(boolean)
+android.support.v4.widget.CursorAdapter
+: void onContentChanged()
+android.support.v4.widget.EdgeEffectCompat
+: boolean onAbsorb(int)
+: boolean onPull(float)
+: boolean onRelease()
+android.support.v4.widget.SearchViewCompat.OnCloseListenerCompat
+: boolean onClose()
+android.support.v4.widget.SearchViewCompat.OnQueryTextListenerCompat
+: boolean onQueryTextChange(java.lang.String)
+: boolean onQueryTextSubmit(java.lang.String)
+android.telephony.PhoneNumberFormattingTextWatcher
+: void onTextChanged(java.lang.CharSequence,int,int,int)
+android.telephony.PhoneStateListener
+: void onCallForwardingIndicatorChanged(boolean)
+: void onCallStateChanged(int,java.lang.String)
+: void onCellInfoChanged(java.util.List)
+: void onCellLocationChanged(android.telephony.CellLocation)
+: void onDataActivity(int)
+: void onDataConnectionStateChanged(int)
+: void onDataConnectionStateChanged(int,int)
+: void onMessageWaitingIndicatorChanged(boolean)
+: void onServiceStateChanged(android.telephony.ServiceState)
+: void onSignalStrengthChanged(int)
+: void onSignalStrengthsChanged(android.telephony.SignalStrength)
+android.test.InstrumentationTestRunner
+: void onCreate(android.os.Bundle)
+: void onStart()
+android.test.mock.MockApplication
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onCreate()
+: void onTerminate()
+android.test.mock.MockContentProvider
+: boolean onCreate()
+android.text.SpanWatcher
+: void onSpanAdded(android.text.Spannable,java.lang.Object,int,int)
+: void onSpanChanged(android.text.Spannable,java.lang.Object,int,int,int,int)
+: void onSpanRemoved(android.text.Spannable,java.lang.Object,int,int)
+android.text.TextWatcher
+: void onTextChanged(java.lang.CharSequence,int,int,int)
+android.text.LoginFilter
+: void onInvalidCharacter(char)
+: void onStart()
+: void onStop()
+android.text.method.KeyListener
+: boolean onKeyDown(android.view.View,android.text.Editable,int,android.view.KeyEvent)
+: boolean onKeyOther(android.view.View,android.text.Editable,android.view.KeyEvent)
+: boolean onKeyUp(android.view.View,android.text.Editable,int,android.view.KeyEvent)
+android.text.method.MovementMethod
+: boolean onGenericMotionEvent(android.widget.TextView,android.text.Spannable,android.view.MotionEvent)
+: boolean onKeyDown(android.widget.TextView,android.text.Spannable,int,android.view.KeyEvent)
+: boolean onKeyOther(android.widget.TextView,android.text.Spannable,android.view.KeyEvent)
+: boolean onKeyUp(android.widget.TextView,android.text.Spannable,int,android.view.KeyEvent)
+: void onTakeFocus(android.widget.TextView,android.text.Spannable,int)
+: boolean onTouchEvent(android.widget.TextView,android.text.Spannable,android.view.MotionEvent)
+: boolean onTrackballEvent(android.widget.TextView,android.text.Spannable,android.view.MotionEvent)
+android.text.method.TransformationMethod
+: void onFocusChanged(android.view.View,java.lang.CharSequence,boolean,int,android.graphics.Rect)
+android.text.method.ArrowKeyMovementMethod
+: void onTakeFocus(android.widget.TextView,android.text.Spannable,int)
+: boolean onTouchEvent(android.widget.TextView,android.text.Spannable,android.view.MotionEvent)
+android.text.method.BaseKeyListener
+: boolean onKeyDown(android.view.View,android.text.Editable,int,android.view.KeyEvent)
+: boolean onKeyOther(android.view.View,android.text.Editable,android.view.KeyEvent)
+android.text.method.BaseMovementMethod
+: boolean onGenericMotionEvent(android.widget.TextView,android.text.Spannable,android.view.MotionEvent)
+: boolean onKeyDown(android.widget.TextView,android.text.Spannable,int,android.view.KeyEvent)
+: boolean onKeyOther(android.widget.TextView,android.text.Spannable,android.view.KeyEvent)
+: boolean onKeyUp(android.widget.TextView,android.text.Spannable,int,android.view.KeyEvent)
+: void onTakeFocus(android.widget.TextView,android.text.Spannable,int)
+: boolean onTouchEvent(android.widget.TextView,android.text.Spannable,android.view.MotionEvent)
+: boolean onTrackballEvent(android.widget.TextView,android.text.Spannable,android.view.MotionEvent)
+android.text.method.CharacterPickerDialog
+: void onClick(android.view.View)
+: void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+: void onCreate(android.os.Bundle)
+android.text.method.LinkMovementMethod
+: void onTakeFocus(android.widget.TextView,android.text.Spannable,int)
+: boolean onTouchEvent(android.widget.TextView,android.text.Spannable,android.view.MotionEvent)
+android.text.method.MetaKeyKeyListener
+: boolean onKeyDown(android.view.View,android.text.Editable,int,android.view.KeyEvent)
+: boolean onKeyUp(android.view.View,android.text.Editable,int,android.view.KeyEvent)
+android.text.method.MultiTapKeyListener
+: boolean onKeyDown(android.view.View,android.text.Editable,int,android.view.KeyEvent)
+: void onSpanAdded(android.text.Spannable,java.lang.Object,int,int)
+: void onSpanChanged(android.text.Spannable,java.lang.Object,int,int,int,int)
+: void onSpanRemoved(android.text.Spannable,java.lang.Object,int,int)
+android.text.method.NumberKeyListener
+: boolean onKeyDown(android.view.View,android.text.Editable,int,android.view.KeyEvent)
+android.text.method.PasswordTransformationMethod
+: void onFocusChanged(android.view.View,java.lang.CharSequence,boolean,int,android.graphics.Rect)
+: void onTextChanged(java.lang.CharSequence,int,int,int)
+android.text.method.QwertyKeyListener
+: boolean onKeyDown(android.view.View,android.text.Editable,int,android.view.KeyEvent)
+android.text.method.ReplacementTransformationMethod
+: void onFocusChanged(android.view.View,java.lang.CharSequence,boolean,int,android.graphics.Rect)
+android.text.method.ScrollingMovementMethod
+: void onTakeFocus(android.widget.TextView,android.text.Spannable,int)
+: boolean onTouchEvent(android.widget.TextView,android.text.Spannable,android.view.MotionEvent)
+android.text.method.TextKeyListener
+: boolean onKeyDown(android.view.View,android.text.Editable,int,android.view.KeyEvent)
+: boolean onKeyOther(android.view.View,android.text.Editable,android.view.KeyEvent)
+: boolean onKeyUp(android.view.View,android.text.Editable,int,android.view.KeyEvent)
+: void onSpanAdded(android.text.Spannable,java.lang.Object,int,int)
+: void onSpanChanged(android.text.Spannable,java.lang.Object,int,int,int,int)
+: void onSpanRemoved(android.text.Spannable,java.lang.Object,int,int)
+android.text.method.Touch
+: boolean onTouchEvent(android.widget.TextView,android.text.Spannable,android.view.MotionEvent)
+android.text.style.ClickableSpan
+: void onClick(android.view.View)
+android.text.style.URLSpan
+: void onClick(android.view.View)
+android.view.ActionMode.Callback
+: boolean onActionItemClicked(android.view.ActionMode,android.view.MenuItem)
+: boolean onCreateActionMode(android.view.ActionMode,android.view.Menu)
+: void onDestroyActionMode(android.view.ActionMode)
+: boolean onPrepareActionMode(android.view.ActionMode,android.view.Menu)
+android.view.ActionProvider.VisibilityListener
+: void onActionProviderVisibilityChanged(boolean)
+android.view.CollapsibleActionView
+: void onActionViewCollapsed()
+: void onActionViewExpanded()
+android.view.GestureDetector.OnDoubleTapListener
+: boolean onDoubleTap(android.view.MotionEvent)
+: boolean onDoubleTapEvent(android.view.MotionEvent)
+: boolean onSingleTapConfirmed(android.view.MotionEvent)
+android.view.GestureDetector.OnGestureListener
+: boolean onDown(android.view.MotionEvent)
+: boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+: void onLongPress(android.view.MotionEvent)
+: boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float)
+: void onShowPress(android.view.MotionEvent)
+: boolean onSingleTapUp(android.view.MotionEvent)
+android.view.InputQueue.Callback
+: void onInputQueueCreated(android.view.InputQueue)
+: void onInputQueueDestroyed(android.view.InputQueue)
+android.view.KeyEvent.Callback
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyLongPress(int,android.view.KeyEvent)
+: boolean onKeyMultiple(int,int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+android.view.LayoutInflater.Factory
+: android.view.View onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet)
+android.view.LayoutInflater.Factory2
+: android.view.View onCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet)
+android.view.LayoutInflater.Filter
+: boolean onLoadClass(java.lang.Class)
+android.view.MenuItem.OnActionExpandListener
+: boolean onMenuItemActionCollapse(android.view.MenuItem)
+: boolean onMenuItemActionExpand(android.view.MenuItem)
+android.view.MenuItem.OnMenuItemClickListener
+: boolean onMenuItemClick(android.view.MenuItem)
+android.view.ScaleGestureDetector.OnScaleGestureListener
+: boolean onScale(android.view.ScaleGestureDetector)
+: boolean onScaleBegin(android.view.ScaleGestureDetector)
+: void onScaleEnd(android.view.ScaleGestureDetector)
+android.view.TextureView.SurfaceTextureListener
+: void onSurfaceTextureAvailable(android.graphics.SurfaceTexture,int,int)
+: boolean onSurfaceTextureDestroyed(android.graphics.SurfaceTexture)
+: void onSurfaceTextureSizeChanged(android.graphics.SurfaceTexture,int,int)
+: void onSurfaceTextureUpdated(android.graphics.SurfaceTexture)
+android.view.View.OnAttachStateChangeListener
+: void onViewAttachedToWindow(android.view.View)
+: void onViewDetachedFromWindow(android.view.View)
+android.view.View.OnClickListener
+: void onClick(android.view.View)
+android.view.View.OnCreateContextMenuListener
+: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu.ContextMenuInfo)
+android.view.View.OnDragListener
+: boolean onDrag(android.view.View,android.view.DragEvent)
+android.view.View.OnFocusChangeListener
+: void onFocusChange(android.view.View,boolean)
+android.view.View.OnGenericMotionListener
+: boolean onGenericMotion(android.view.View,android.view.MotionEvent)
+android.view.View.OnHoverListener
+: boolean onHover(android.view.View,android.view.MotionEvent)
+android.view.View.OnKeyListener
+: boolean onKey(android.view.View,int,android.view.KeyEvent)
+android.view.View.OnLayoutChangeListener
+: void onLayoutChange(android.view.View,int,int,int,int,int,int,int,int)
+android.view.View.OnLongClickListener
+: boolean onLongClick(android.view.View)
+android.view.View.OnSystemUiVisibilityChangeListener
+: void onSystemUiVisibilityChange(int)
+android.view.View.OnTouchListener
+: boolean onTouch(android.view.View,android.view.MotionEvent)
+android.view.ViewGroup.OnHierarchyChangeListener
+: void onChildViewAdded(android.view.View,android.view.View)
+: void onChildViewRemoved(android.view.View,android.view.View)
+android.view.ViewStub.OnInflateListener
+: void onInflate(android.view.ViewStub,android.view.View)
+android.view.ViewTreeObserver.OnDrawListener
+: void onDraw()
+android.view.ViewTreeObserver.OnGlobalFocusChangeListener
+: void onGlobalFocusChanged(android.view.View,android.view.View)
+android.view.ViewTreeObserver.OnGlobalLayoutListener
+: void onGlobalLayout()
+android.view.ViewTreeObserver.OnPreDrawListener
+: boolean onPreDraw()
+android.view.ViewTreeObserver.OnScrollChangedListener
+: void onScrollChanged()
+android.view.ViewTreeObserver.OnTouchModeChangeListener
+: void onTouchModeChanged(boolean)
+android.view.Window.Callback
+: void onActionModeFinished(android.view.ActionMode)
+: void onActionModeStarted(android.view.ActionMode)
+: void onAttachedToWindow()
+: void onContentChanged()
+: boolean onCreatePanelMenu(int,android.view.Menu)
+: android.view.View onCreatePanelView(int)
+: void onDetachedFromWindow()
+: boolean onMenuItemSelected(int,android.view.MenuItem)
+: boolean onMenuOpened(int,android.view.Menu)
+: void onPanelClosed(int,android.view.Menu)
+: boolean onPreparePanel(int,android.view.View,android.view.Menu)
+: boolean onSearchRequested()
+: void onWindowAttributesChanged(android.view.WindowManager.LayoutParams)
+: void onWindowFocusChanged(boolean)
+: android.view.ActionMode onWindowStartingActionMode(android.view.ActionMode.Callback)
+android.view.ActionProvider
+: android.view.View onCreateActionView()
+: android.view.View onCreateActionView(android.view.MenuItem)
+: boolean onPerformDefaultAction()
+: void onPrepareSubMenu(android.view.SubMenu)
+android.view.ContextThemeWrapper
+: void onApplyThemeResource(android.content.res.Resources.Theme,int,boolean)
+android.view.GestureDetector
+: boolean onTouchEvent(android.view.MotionEvent)
+android.view.GestureDetector.SimpleOnGestureListener
+: boolean onDoubleTap(android.view.MotionEvent)
+: boolean onDoubleTapEvent(android.view.MotionEvent)
+: boolean onDown(android.view.MotionEvent)
+: boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+: void onLongPress(android.view.MotionEvent)
+: boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float)
+: void onShowPress(android.view.MotionEvent)
+: boolean onSingleTapConfirmed(android.view.MotionEvent)
+: boolean onSingleTapUp(android.view.MotionEvent)
+android.view.LayoutInflater
+: android.view.View onCreateView(java.lang.String,android.util.AttributeSet)
+: android.view.View onCreateView(android.view.View,java.lang.String,android.util.AttributeSet)
+android.view.OrientationEventListener
+: void onOrientationChanged(int)
+android.view.OrientationListener
+: void onAccuracyChanged(int,int)
+: void onOrientationChanged(int)
+: void onSensorChanged(int,float)
+android.view.ScaleGestureDetector
+: boolean onTouchEvent(android.view.MotionEvent)
+android.view.ScaleGestureDetector.SimpleOnScaleGestureListener
+: boolean onScale(android.view.ScaleGestureDetector)
+: boolean onScaleBegin(android.view.ScaleGestureDetector)
+: void onScaleEnd(android.view.ScaleGestureDetector)
+android.view.SurfaceView
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onMeasure(int,int)
+: void onWindowVisibilityChanged(int)
+android.view.TextureView
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onDraw(android.graphics.Canvas)
+: void onSizeChanged(int,int,int,int)
+: void onVisibilityChanged(android.view.View,int)
+android.view.TouchDelegate
+: boolean onTouchEvent(android.view.MotionEvent)
+android.view.View
+: boolean onCheckIsTextEditor()
+: android.view.inputmethod.InputConnection onCreateInputConnection(android.view.inputmethod.EditorInfo)
+: boolean onDragEvent(android.view.DragEvent)
+: boolean onFilterTouchEventForSecurity(android.view.MotionEvent)
+: void onFinishTemporaryDetach()
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: void onHoverChanged(boolean)
+: boolean onHoverEvent(android.view.MotionEvent)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyLongPress(int,android.view.KeyEvent)
+: boolean onKeyMultiple(int,int,android.view.KeyEvent)
+: boolean onKeyPreIme(int,android.view.KeyEvent)
+: boolean onKeyShortcut(int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onRtlPropertiesChanged(int)
+: void onScreenStateChanged(int)
+: void onStartTemporaryDetach()
+: boolean onTouchEvent(android.view.MotionEvent)
+: boolean onTrackballEvent(android.view.MotionEvent)
+: void onWindowFocusChanged(boolean)
+: void onWindowSystemUiVisibilityChanged(int)
+: void onAnimationEnd()
+: void onAnimationStart()
+: void onAttachedToWindow()
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onCreateContextMenu(android.view.ContextMenu)
+: int onCreateDrawableState(int)
+: void onDetachedFromWindow()
+: void onDisplayHint(int)
+: void onDraw(android.graphics.Canvas)
+: void onDrawScrollBars(android.graphics.Canvas)
+: void onFinishInflate()
+: void onFocusChanged(boolean,int,android.graphics.Rect)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+: void onOverScrolled(int,int,boolean,boolean)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: void onScrollChanged(int,int,int,int)
+: boolean onSetAlpha(int)
+: void onSizeChanged(int,int,int,int)
+: void onVisibilityChanged(android.view.View,int)
+: void onWindowVisibilityChanged(int)
+android.view.View.AccessibilityDelegate
+: void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.View,android.view.accessibility.AccessibilityNodeInfo)
+: void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+: boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+android.view.View.DragShadowBuilder
+: void onDrawShadow(android.graphics.Canvas)
+: void onProvideShadowMetrics(int,int)
+android.view.ViewGroup
+: boolean onInterceptHoverEvent(android.view.MotionEvent)
+: boolean onInterceptTouchEvent(android.view.MotionEvent)
+: boolean onRequestSendAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+: void onAnimationEnd()
+: void onAnimationStart()
+: int onCreateDrawableState(int)
+: void onLayout(boolean,int,int,int,int)
+: boolean onRequestFocusInDescendants(int,android.graphics.Rect)
+android.view.ViewStub
+: void onMeasure(int,int)
+android.view.Window
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onActive()
+android.view.accessibility.AccessibilityManager.AccessibilityStateChangeListener
+: void onAccessibilityStateChanged(boolean)
+android.view.animation.Animation.AnimationListener
+: void onAnimationEnd(android.view.animation.Animation)
+: void onAnimationRepeat(android.view.animation.Animation)
+: void onAnimationStart(android.view.animation.Animation)
+android.view.textservice.SpellCheckerSession.SpellCheckerSessionListener
+: void onGetSentenceSuggestions(android.view.textservice.SentenceSuggestionsInfo[])
+: void onGetSuggestions(android.view.textservice.SuggestionsInfo[])
+android.webkit.DownloadListener
+: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)
+android.webkit.ValueCallback
+: void onReceiveValue()
+android.webkit.WebChromeClient.CustomViewCallback
+: void onCustomViewHidden()
+android.webkit.WebIconDatabase.IconListener
+: void onReceivedIcon(java.lang.String,android.graphics.Bitmap)
+android.webkit.WebView.FindListener
+: void onFindResultReceived(int,int,boolean)
+android.webkit.WebView.PictureListener
+: void onNewPicture(android.webkit.WebView,android.graphics.Picture)
+android.webkit.CookieSyncManager
+: void run()
+: void onSyncInit()
+android.webkit.WebChromeClient
+: void onCloseWindow(android.webkit.WebView)
+: void onConsoleMessage(java.lang.String,int,java.lang.String)
+: boolean onConsoleMessage(android.webkit.ConsoleMessage)
+: boolean onCreateWindow(android.webkit.WebView,boolean,boolean,android.os.Message)
+: void onExceededDatabaseQuota(java.lang.String,java.lang.String,long,long,long,android.webkit.WebStorage.QuotaUpdater)
+: void onGeolocationPermissionsHidePrompt()
+: void onGeolocationPermissionsShowPrompt(java.lang.String,android.webkit.GeolocationPermissions.Callback)
+: void onHideCustomView()
+: boolean onJsAlert(android.webkit.WebView,java.lang.String,java.lang.String,android.webkit.JsResult)
+: boolean onJsBeforeUnload(android.webkit.WebView,java.lang.String,java.lang.String,android.webkit.JsResult)
+: boolean onJsConfirm(android.webkit.WebView,java.lang.String,java.lang.String,android.webkit.JsResult)
+: boolean onJsPrompt(android.webkit.WebView,java.lang.String,java.lang.String,java.lang.String,android.webkit.JsPromptResult)
+: boolean onJsTimeout()
+: void onProgressChanged(android.webkit.WebView,int)
+: void onReachedMaxAppCacheSize(long,long,android.webkit.WebStorage.QuotaUpdater)
+: void onReceivedIcon(android.webkit.WebView,android.graphics.Bitmap)
+: void onReceivedTitle(android.webkit.WebView,java.lang.String)
+: void onReceivedTouchIconUrl(android.webkit.WebView,java.lang.String,boolean)
+: void onRequestFocus(android.webkit.WebView)
+: void onShowCustomView(android.view.View,int,android.webkit.WebChromeClient.CustomViewCallback)
+: void onShowCustomView(android.view.View,android.webkit.WebChromeClient.CustomViewCallback)
+android.webkit.WebView
+: void onChildViewAdded(android.view.View,android.view.View)
+: void onChildViewRemoved(android.view.View,android.view.View)
+: android.view.inputmethod.InputConnection onCreateInputConnection(android.view.inputmethod.EditorInfo)
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: void onGlobalFocusChanged(android.view.View,android.view.View)
+: boolean onHoverEvent(android.view.MotionEvent)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyMultiple(int,int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: void onPause()
+: void onResume()
+: boolean onTouchEvent(android.view.MotionEvent)
+: boolean onTrackballEvent(android.view.MotionEvent)
+: void onWindowFocusChanged(boolean)
+: void onAttachedToWindow()
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onDetachedFromWindow()
+: void onDraw(android.graphics.Canvas)
+: void onFocusChanged(boolean,int,android.graphics.Rect)
+: void onMeasure(int,int)
+: void onOverScrolled(int,int,boolean,boolean)
+: void onScrollChanged(int,int,int,int)
+: void onSizeChanged(int,int,int,int)
+: void onVisibilityChanged(android.view.View,int)
+: void onWindowVisibilityChanged(int)
+android.webkit.WebViewClient
+: void onFormResubmission(android.webkit.WebView,android.os.Message,android.os.Message)
+: void onLoadResource(android.webkit.WebView,java.lang.String)
+: void onPageFinished(android.webkit.WebView,java.lang.String)
+: void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap)
+: void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String)
+: void onReceivedHttpAuthRequest(android.webkit.WebView,android.webkit.HttpAuthHandler,java.lang.String,java.lang.String)
+: void onReceivedLoginRequest(android.webkit.WebView,java.lang.String,java.lang.String,java.lang.String)
+: void onReceivedSslError(android.webkit.WebView,android.webkit.SslErrorHandler,android.net.http.SslError)
+: void onScaleChanged(android.webkit.WebView,float,float)
+: void onTooManyRedirects(android.webkit.WebView,android.os.Message,android.os.Message)
+: void onUnhandledKeyEvent(android.webkit.WebView,android.view.KeyEvent)
+android.webkit.WebViewFragment
+: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+: void onDestroy()
+: void onDestroyView()
+: void onPause()
+: void onResume()
+android.widget.AbsListView.MultiChoiceModeListener
+: void onItemCheckedStateChanged(android.view.ActionMode,int,long,boolean)
+android.widget.AbsListView.OnScrollListener
+: void onScroll(android.widget.AbsListView,int,int,int)
+: void onScrollStateChanged(android.widget.AbsListView,int)
+android.widget.AbsListView.RecyclerListener
+: void onMovedToScrapHeap(android.view.View)
+android.widget.AdapterView.OnItemClickListener
+: void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+android.widget.AdapterView.OnItemLongClickListener
+: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+android.widget.AdapterView.OnItemSelectedListener
+: void onItemSelected(android.widget.AdapterView,android.view.View,int,long)
+: void onNothingSelected(android.widget.AdapterView)
+android.widget.AutoCompleteTextView.OnDismissListener
+: void onDismiss()
+android.widget.CalendarView.OnDateChangeListener
+: void onSelectedDayChange(android.widget.CalendarView,int,int,int)
+android.widget.Chronometer.OnChronometerTickListener
+: void onChronometerTick(android.widget.Chronometer)
+android.widget.CompoundButton.OnCheckedChangeListener
+: void onCheckedChanged(android.widget.CompoundButton,boolean)
+android.widget.DatePicker.OnDateChangedListener
+: void onDateChanged(android.widget.DatePicker,int,int,int)
+android.widget.ExpandableListAdapter
+: void onGroupCollapsed(int)
+: void onGroupExpanded(int)
+android.widget.ExpandableListView.OnChildClickListener
+: boolean onChildClick(android.widget.ExpandableListView,android.view.View,int,int,long)
+android.widget.ExpandableListView.OnGroupClickListener
+: boolean onGroupClick(android.widget.ExpandableListView,android.view.View,int,long)
+android.widget.ExpandableListView.OnGroupCollapseListener
+: void onGroupCollapse(int)
+android.widget.ExpandableListView.OnGroupExpandListener
+: void onGroupExpand(int)
+android.widget.Filter.FilterListener
+: void onFilterComplete(int)
+android.widget.NumberPicker.OnScrollListener
+: void onScrollStateChange(android.widget.NumberPicker,int)
+android.widget.NumberPicker.OnValueChangeListener
+: void onValueChange(android.widget.NumberPicker,int,int)
+android.widget.PopupMenu.OnDismissListener
+: void onDismiss(android.widget.PopupMenu)
+android.widget.PopupMenu.OnMenuItemClickListener
+: boolean onMenuItemClick(android.view.MenuItem)
+android.widget.PopupWindow.OnDismissListener
+: void onDismiss()
+android.widget.RadioGroup.OnCheckedChangeListener
+: void onCheckedChanged(android.widget.RadioGroup,int)
+android.widget.RatingBar.OnRatingBarChangeListener
+: void onRatingChanged(android.widget.RatingBar,float,boolean)
+android.widget.RemoteViewsService.RemoteViewsFactory
+: void onCreate()
+: void onDataSetChanged()
+: void onDestroy()
+android.widget.SearchView.OnCloseListener
+: boolean onClose()
+android.widget.SearchView.OnQueryTextListener
+: boolean onQueryTextChange(java.lang.String)
+: boolean onQueryTextSubmit(java.lang.String)
+android.widget.SearchView.OnSuggestionListener
+: boolean onSuggestionClick(int)
+: boolean onSuggestionSelect(int)
+android.widget.SeekBar.OnSeekBarChangeListener
+: void onProgressChanged(android.widget.SeekBar,int,boolean)
+: void onStartTrackingTouch(android.widget.SeekBar)
+: void onStopTrackingTouch(android.widget.SeekBar)
+android.widget.ShareActionProvider.OnShareTargetSelectedListener
+: boolean onShareTargetSelected(android.widget.ShareActionProvider,android.content.Intent)
+android.widget.SlidingDrawer.OnDrawerCloseListener
+: void onDrawerClosed()
+android.widget.SlidingDrawer.OnDrawerOpenListener
+: void onDrawerOpened()
+android.widget.SlidingDrawer.OnDrawerScrollListener
+: void onScrollEnded()
+: void onScrollStarted()
+android.widget.TabHost.OnTabChangeListener
+: void onTabChanged(java.lang.String)
+android.widget.TextView.OnEditorActionListener
+: boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent)
+android.widget.TimePicker.OnTimeChangedListener
+: void onTimeChanged(android.widget.TimePicker,int,int)
+android.widget.ZoomButtonsController.OnZoomListener
+: void onVisibilityChanged(boolean)
+: void onZoom(boolean)
+android.widget.AbsListView
+: android.view.inputmethod.InputConnection onCreateInputConnection(android.view.inputmethod.EditorInfo)
+: void onFilterComplete(int)
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: void onGlobalLayout()
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onInterceptTouchEvent(android.view.MotionEvent)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: boolean onRemoteAdapterConnected()
+: void onRemoteAdapterDisconnected()
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: void onTextChanged(java.lang.CharSequence,int,int,int)
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onTouchModeChanged(boolean)
+: void onWindowFocusChanged(boolean)
+: void onAttachedToWindow()
+: int onCreateDrawableState(int)
+: void onDetachedFromWindow()
+: void onDisplayHint(int)
+: void onFocusChanged(boolean,int,android.graphics.Rect)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+: void onOverScrolled(int,int,boolean,boolean)
+: void onSizeChanged(int,int,int,int)
+android.widget.AbsoluteLayout
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.AbsSeekBar
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: void onRtlPropertiesChanged(int)
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onDraw(android.graphics.Canvas)
+: void onMeasure(int,int)
+: void onSizeChanged(int,int,int,int)
+android.widget.AbsSpinner
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: void onMeasure(int,int)
+android.widget.AdapterView
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onRequestSendAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+: void onDetachedFromWindow()
+: void onLayout(boolean,int,int,int,int)
+android.widget.AdapterViewAnimator
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onRemoteAdapterConnected()
+: void onRemoteAdapterDisconnected()
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.AdapterViewFlipper
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onWindowVisibilityChanged(int)
+android.widget.AlphabetIndexer
+: void onChanged()
+: void onInvalidated()
+android.widget.AnalogClock
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onDraw(android.graphics.Canvas)
+: void onMeasure(int,int)
+: void onSizeChanged(int,int,int,int)
+android.widget.AutoCompleteTextView
+: void onCommitCompletion(android.view.inputmethod.CompletionInfo)
+: void onFilterComplete(int)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyPreIme(int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: void onWindowFocusChanged(boolean)
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onDisplayHint(int)
+: void onFocusChanged(boolean,int,android.graphics.Rect)
+android.widget.BaseExpandableListAdapter
+: void onGroupCollapsed(int)
+: void onGroupExpanded(int)
+android.widget.Button
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.widget.CalendarView
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onConfigurationChanged(android.content.res.Configuration)
+android.widget.CheckBox
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.widget.CheckedTextView
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onRtlPropertiesChanged(int)
+: int onCreateDrawableState(int)
+: void onDraw(android.graphics.Canvas)
+android.widget.Chronometer
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onDetachedFromWindow()
+: void onWindowVisibilityChanged(int)
+android.widget.CompoundButton
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: int onCreateDrawableState(int)
+: void onDraw(android.graphics.Canvas)
+android.widget.CursorAdapter
+: void onContentChanged()
+android.widget.CursorTreeAdapter
+: void onGroupCollapsed(int)
+android.widget.DatePicker
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+android.widget.DialerFilter
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: void onFinishInflate()
+: void onFocusChanged(boolean,int,android.graphics.Rect)
+: void onModeChange(int,int)
+android.widget.DigitalClock
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+android.widget.EdgeEffect
+: void onAbsorb(int)
+: void onPull(float)
+: void onRelease()
+android.widget.EditText
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.widget.ExpandableListView
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+android.widget.FrameLayout
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+: void onSizeChanged(int,int,int,int)
+android.widget.Gallery
+: boolean onDown(android.view.MotionEvent)
+: boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: void onLongPress(android.view.MotionEvent)
+: boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float)
+: void onShowPress(android.view.MotionEvent)
+: boolean onSingleTapUp(android.view.MotionEvent)
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onFocusChanged(boolean,int,android.graphics.Rect)
+: void onLayout(boolean,int,int,int,int)
+android.widget.GridLayout
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.GridView
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyMultiple(int,int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: void onFocusChanged(boolean,int,android.graphics.Rect)
+: void onMeasure(int,int)
+android.widget.HorizontalScrollView
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onInterceptTouchEvent(android.view.MotionEvent)
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+: void onOverScrolled(int,int,boolean,boolean)
+: boolean onRequestFocusInDescendants(int,android.graphics.Rect)
+: void onSizeChanged(int,int,int,int)
+android.widget.ImageButton
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onSetAlpha(int)
+android.widget.ImageSwitcher
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.widget.ImageView
+: int onCreateDrawableState(int)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onDraw(android.graphics.Canvas)
+: void onMeasure(int,int)
+android.widget.LinearLayout
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onDraw(android.graphics.Canvas)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.ListPopupWindow
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyPreIme(int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+android.widget.ListView
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyMultiple(int,int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: void onFinishInflate()
+: void onFocusChanged(boolean,int,android.graphics.Rect)
+: void onMeasure(int,int)
+: void onSizeChanged(int,int,int,int)
+android.widget.MediaController
+: void onFinishInflate()
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onTouchEvent(android.view.MotionEvent)
+: boolean onTrackballEvent(android.view.MotionEvent)
+android.widget.MultiAutoCompleteTextView
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.widget.NumberPicker
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: boolean onInterceptTouchEvent(android.view.MotionEvent)
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onDetachedFromWindow()
+: void onDraw(android.graphics.Canvas)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.ProgressBar
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onDraw(android.graphics.Canvas)
+: void onMeasure(int,int)
+: void onSizeChanged(int,int,int,int)
+: void onVisibilityChanged(android.view.View,int)
+android.widget.QuickContactBadge
+: void onClick(android.view.View)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onDraw(android.graphics.Canvas)
+android.widget.RadioButton
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.widget.RadioGroup
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onFinishInflate()
+android.widget.RatingBar
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onMeasure(int,int)
+android.widget.RelativeLayout
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.RemoteViews
+: boolean onLoadClass(java.lang.Class)
+android.widget.RemoteViewsService
+: android.os.IBinder onBind(android.content.Intent)
+: android.widget.RemoteViewsService.RemoteViewsFactory onGetViewFactory(android.content.Intent)
+android.widget.ScrollView
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onInterceptTouchEvent(android.view.MotionEvent)
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onDetachedFromWindow()
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+: void onOverScrolled(int,int,boolean,boolean)
+: boolean onRequestFocusInDescendants(int,android.graphics.Rect)
+: void onSizeChanged(int,int,int,int)
+android.widget.SearchView
+: void onActionViewCollapsed()
+: void onActionViewExpanded()
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: void onRtlPropertiesChanged(int)
+: void onWindowFocusChanged(boolean)
+: void onDetachedFromWindow()
+: void onMeasure(int,int)
+android.widget.SeekBar
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.widget.ShareActionProvider
+: android.view.View onCreateActionView()
+: void onPrepareSubMenu(android.view.SubMenu)
+android.widget.SlidingDrawer
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onInterceptTouchEvent(android.view.MotionEvent)
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onFinishInflate()
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.Space
+: void onMeasure(int,int)
+android.widget.Spinner
+: void onClick(android.content.DialogInterface,int)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onDetachedFromWindow()
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.StackView
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onInterceptTouchEvent(android.view.MotionEvent)
+: boolean onTouchEvent(android.view.MotionEvent)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.Switch
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onMeasure(int,int)
+: void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: boolean onTouchEvent(android.view.MotionEvent)
+: int onCreateDrawableState(int)
+: void onDraw(android.graphics.Canvas)
+: void onLayout(boolean,int,int,int,int)
+android.widget.TabHost
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onTouchModeChanged(boolean)
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+android.widget.TableLayout
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.TableRow
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+android.widget.TabWidget
+: void onFocusChange(android.view.View,boolean)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onSizeChanged(int,int,int,int)
+android.widget.TextClock
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+android.widget.TextSwitcher
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.widget.TextView
+: void onBeginBatchEdit()
+: boolean onCheckIsTextEditor()
+: void onCommitCompletion(android.view.inputmethod.CompletionInfo)
+: void onCommitCorrection(android.view.inputmethod.CorrectionInfo)
+: android.view.inputmethod.InputConnection onCreateInputConnection(android.view.inputmethod.EditorInfo)
+: boolean onDragEvent(android.view.DragEvent)
+: void onEditorAction(int)
+: void onEndBatchEdit()
+: void onFinishTemporaryDetach()
+: boolean onGenericMotionEvent(android.view.MotionEvent)
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onKeyMultiple(int,int,android.view.KeyEvent)
+: boolean onKeyPreIme(int,android.view.KeyEvent)
+: boolean onKeyShortcut(int,android.view.KeyEvent)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: boolean onPreDraw()
+: boolean onPrivateIMECommand(java.lang.String,android.os.Bundle)
+: void onRestoreInstanceState(android.os.Parcelable)
+: void onRtlPropertiesChanged(int)
+: android.os.Parcelable onSaveInstanceState()
+: void onScreenStateChanged(int)
+: void onStartTemporaryDetach()
+: boolean onTextContextMenuItem(int)
+: boolean onTouchEvent(android.view.MotionEvent)
+: boolean onTrackballEvent(android.view.MotionEvent)
+: void onWindowFocusChanged(boolean)
+: void onAttachedToWindow()
+: int onCreateDrawableState(int)
+: void onDetachedFromWindow()
+: void onDraw(android.graphics.Canvas)
+: void onFocusChanged(boolean,int,android.graphics.Rect)
+: void onLayout(boolean,int,int,int,int)
+: void onMeasure(int,int)
+: void onScrollChanged(int,int,int,int)
+: void onSelectionChanged(int,int)
+: void onTextChanged(java.lang.CharSequence,int,int,int)
+: void onVisibilityChanged(android.view.View,int)
+android.widget.TimePicker
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onConfigurationChanged(android.content.res.Configuration)
+: void onRestoreInstanceState(android.os.Parcelable)
+: android.os.Parcelable onSaveInstanceState()
+android.widget.ToggleButton
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onFinishInflate()
+android.widget.TwoLineListItem
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onFinishInflate()
+android.widget.VideoView
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onKeyDown(int,android.view.KeyEvent)
+: boolean onTouchEvent(android.view.MotionEvent)
+: boolean onTrackballEvent(android.view.MotionEvent)
+: void onMeasure(int,int)
+android.widget.ViewAnimator
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.widget.ViewFlipper
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: void onAttachedToWindow()
+: void onDetachedFromWindow()
+: void onWindowVisibilityChanged(int)
+android.widget.ViewSwitcher
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+android.widget.ZoomButton
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onKeyUp(int,android.view.KeyEvent)
+: boolean onLongClick(android.view.View)
+: boolean onTouchEvent(android.view.MotionEvent)
+android.widget.ZoomControls
+: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)
+: boolean onTouchEvent(android.view.MotionEvent)
+java.lang.Runnable
+: void run()
+java.lang.Thread
+: void run()
+java.nio.charset.CharsetDecoder
+: java.nio.charset.CharsetDecoder onMalformedInput(java.nio.charset.CodingErrorAction)
+: java.nio.charset.CharsetDecoder onUnmappableCharacter(java.nio.charset.CodingErrorAction)
+java.nio.charset.CharsetEncoder
+: java.nio.charset.CharsetEncoder onMalformedInput(java.nio.charset.CodingErrorAction)
+: java.nio.charset.CharsetEncoder onUnmappableCharacter(java.nio.charset.CodingErrorAction)
+java.security.PrivilegedAction
+: null run()
+java.security.PrivilegedExceptionAction
+: null run()
+java.security.DigestInputStream
+: void on(boolean)
+java.security.DigestOutputStream
+: void on(boolean)
+java.util.TimerTask
+: void run()
+java.util.concurrent.RunnableFuture
+: void run()
+java.util.concurrent.FutureTask
+: void run()
+junit.framework.Test
+: void run(junit.framework.TestResult)
+junit.framework.TestCase
+: junit.framework.TestResult run()
+: void run(junit.framework.TestResult)
+junit.framework.TestResult
+: void run(junit.framework.TestCase)
+junit.framework.TestSuite
+: void run(junit.framework.TestResult)
+org.apache.http.impl.conn.tsccm.RefQueueWorker
+: void run()
+java.lang.Object
+: int compare(java.lang.Object,java.lang.Object)
+java.util.Comparator
+: int compare(java.lang.Object,java.lang.Object)
+: boolean equals(java.lang.Object)
+android.os.Handler
+: void handleMessage(android.os.Message)
